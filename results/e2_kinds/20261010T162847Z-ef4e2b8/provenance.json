@@ -1,0 +1,20 @@
+{
+ "experiment": "e2_kinds",
+ "run_id": "20261010T162847Z-ef4e2b8",
+ "commit": "ef4e2b85b8cbfd2c3819eaab5ee845fb9626678c",
+ "dirty": false,
+ "created_at": "2026-10-10T16:28:47+00:00",
+ "runtime_seconds": 0.05,
+ "description": "E2 detection by anomaly kind (novel activity vs off schedule), from E1's per-person results",
+ "config_sha256": "7a9dd84e50d818b8baf3891ab46a468aaec281b29469ae39a3bdd46e6cba0247",
+ "python": "3.13.16",
+ "machine": "x86_64",
+ "cpus": 4,
+ "packages": {
+  "scikit-learn": "1.9.1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1"
+ },
+ "dataset_sha256": "412d307bdf54a60dff81a705c2f25833889a46dca64a184e3b588ad99c69cb56",
+ "users": "all 60"
+}

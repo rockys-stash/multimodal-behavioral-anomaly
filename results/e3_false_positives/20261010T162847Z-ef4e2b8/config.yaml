@@ -1,0 +1,9 @@
+model: C
+detector: knn
+restrict:
+- acc
+- gyro
+examples_per_person: 5
+min_count: 30
+seed: 0
+workers: 4

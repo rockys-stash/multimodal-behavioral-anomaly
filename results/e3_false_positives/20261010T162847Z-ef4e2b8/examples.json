@@ -1,0 +1,4343 @@
+[
+ {
+  "uuid": "098A72A5-E3E5-4F54-A152-BBDA0DF7B694",
+  "time": "2015-08-27T20:55:17-07:00",
+  "score": 1.970680792919747,
+  "threshold": 1.781435215987613,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.4555755156564789,
+   "gyro": 0.5030952881773544,
+   "time": 0.04132919616616673
+  }
+ },
+ {
+  "uuid": "098A72A5-E3E5-4F54-A152-BBDA0DF7B694",
+  "time": "2015-08-27T21:04:17-07:00",
+  "score": 1.8154342632855076,
+  "threshold": 1.781435215987613,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.3431287860014784,
+   "gyro": 0.603493227047387,
+   "time": 0.053377986951134604
+  }
+ },
+ {
+  "uuid": "098A72A5-E3E5-4F54-A152-BBDA0DF7B694",
+  "time": "2015-08-27T21:16:17-07:00",
+  "score": 1.8528159466200944,
+  "threshold": 1.781435215987613,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.4209510952011662,
+   "gyro": 0.5621066831358968,
+   "time": 0.016942221662936935
+  }
+ },
+ {
+  "uuid": "098A72A5-E3E5-4F54-A152-BBDA0DF7B694",
+  "time": "2015-08-28T03:37:17-07:00",
+  "score": 2.1398894976613283,
+  "threshold": 1.781435215987613,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.024123345390174567,
+   "gyro": 0.9349726252566377,
+   "time": 0.04090402935318775
+  }
+ },
+ {
+  "uuid": "098A72A5-E3E5-4F54-A152-BBDA0DF7B694",
+  "time": "2015-08-28T07:54:17-07:00",
+  "score": 1.7884316893782242,
+  "threshold": 1.781435215987613,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.47438060202029303,
+   "gyro": 0.33589442560179383,
+   "time": 0.18972497237791322
+  }
+ },
+ {
+  "uuid": "0A986513-7828-4D53-AA1F-E02D6DF9561B",
+  "time": "2015-12-10T12:45:58-08:00",
+  "score": 1.7225544920405933,
+  "threshold": 1.3798174415408355,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.5314251902699997,
+   "gyro": 0.3693424943513455,
+   "time": 0.0992323153786548
+  }
+ },
+ {
+  "uuid": "0A986513-7828-4D53-AA1F-E02D6DF9561B",
+  "time": "2015-12-10T13:58:58-08:00",
+  "score": 1.5988911183205528,
+  "threshold": 1.3798174415408355,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.3459215882283873,
+   "gyro": 0.46487776819541893,
+   "time": 0.18920064357619373
+  }
+ },
+ {
+  "uuid": "0A986513-7828-4D53-AA1F-E02D6DF9561B",
+  "time": "2015-12-10T15:52:58-08:00",
+  "score": 1.542976000383233,
+  "threshold": 1.3798174415408355,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: AT_SCHOOL",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.3716280655401816,
+   "gyro": 0.5224542606359098,
+   "time": 0.10591767382390858
+  }
+ },
+ {
+  "uuid": "0A986513-7828-4D53-AA1F-E02D6DF9561B",
+  "time": "2015-12-10T18:47:58-08:00",
+  "score": 1.545672564721712,
+  "threshold": 1.3798174415408355,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.6085024928500226,
+   "gyro": 0.301819641839333,
+   "time": 0.0896778653106444
+  }
+ },
+ {
+  "uuid": "0A986513-7828-4D53-AA1F-E02D6DF9561B",
+  "time": "2015-12-10T23:30:18-08:00",
+  "score": 1.7994563012845504,
+  "threshold": 1.3798174415408355,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.48225950901770903,
+   "gyro": 0.27819942166301276,
+   "time": 0.23954106931927818
+  }
+ },
+ {
+  "uuid": "0BFC35E2-4817-4865-BFA7-764742302A2D",
+  "time": "2015-10-26T23:00:29-07:00",
+  "score": 1.924585139042326,
+  "threshold": 1.6883601631109573,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.1677151729417812,
+   "gyro": 0.4928534842033402,
+   "time": 0.3394313428548786
+  }
+ },
+ {
+  "uuid": "0BFC35E2-4817-4865-BFA7-764742302A2D",
+  "time": "2015-10-26T23:03:15-07:00",
+  "score": 1.7502378749328211,
+  "threshold": 1.6883601631109573,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.1580262253170909,
+   "gyro": 0.5242137890786053,
+   "time": 0.31775998560430385
+  }
+ },
+ {
+  "uuid": "0BFC35E2-4817-4865-BFA7-764742302A2D",
+  "time": "2015-10-26T23:14:19-07:00",
+  "score": 2.1689058717490517,
+  "threshold": 1.6883601631109573,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: time dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.1518154072625752,
+   "gyro": 0.400566221684462,
+   "time": 0.4476183710529627
+  }
+ },
+ {
+  "uuid": "0BFC35E2-4817-4865-BFA7-764742302A2D",
+  "time": "2015-10-26T23:20:14-07:00",
+  "score": 1.9350295610558519,
+  "threshold": 1.6883601631109573,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: time dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.20227040123764992,
+   "gyro": 0.36224132080235855,
+   "time": 0.4354882779599916
+  }
+ },
+ {
+  "uuid": "0BFC35E2-4817-4865-BFA7-764742302A2D",
+  "time": "2015-10-26T23:31:28-07:00",
+  "score": 1.9139137300984366,
+  "threshold": 1.6883601631109573,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: time dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.2126965283415164,
+   "gyro": 0.22673888454030977,
+   "time": 0.5605645871181739
+  }
+ },
+ {
+  "uuid": "0E6184E1-90C0-48EE-B25A-F1ECB7B9714E",
+  "time": "2015-12-04T21:42:01-08:00",
+  "score": 1.662148387600654,
+  "threshold": 1.6126512793102672,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: SHOPPING",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.5077330771476144,
+   "gyro": 0.4248129515646532,
+   "time": 0.0674539712877325
+  }
+ },
+ {
+  "uuid": "0E6184E1-90C0-48EE-B25A-F1ECB7B9714E",
+  "time": "2015-12-04T22:02:36-08:00",
+  "score": 1.649155696449078,
+  "threshold": 1.6126512793102672,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates",
+   "context: SHOPPING",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.3824977511252247,
+   "gyro": 0.427680011316124,
+   "time": 0.18982223755865127
+  }
+ },
+ {
+  "uuid": "0E6184E1-90C0-48EE-B25A-F1ECB7B9714E",
+  "time": "2015-12-04T22:55:06-08:00",
+  "score": 1.7924691183749437,
+  "threshold": 1.6126512793102672,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: LOC_home",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.24532409441300662,
+   "gyro": 0.4626319485785491,
+   "time": 0.2920439570084441
+  }
+ },
+ {
+  "uuid": "0E6184E1-90C0-48EE-B25A-F1ECB7B9714E",
+  "time": "2015-12-05T11:23:01-08:00",
+  "score": 1.8255819441815677,
+  "threshold": 1.6126512793102672,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: FIX_restaurant",
+   "context: TALKING",
+   "context: WITH_CO-WORKERS"
+  ],
+  "explanation": {
+   "acc": 0.43109693577041874,
+   "gyro": 0.5397756204022486,
+   "time": 0.02912744382733271
+  }
+ },
+ {
+  "uuid": "0E6184E1-90C0-48EE-B25A-F1ECB7B9714E",
+  "time": "2015-12-05T21:24:46-08:00",
+  "score": 1.6751711581433888,
+  "threshold": 1.6126512793102672,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.35341053017694757,
+   "gyro": 0.5529469065029314,
+   "time": 0.09364256332012098
+  }
+ },
+ {
+  "uuid": "1155FF54-63D3-4AB2-9863-8385D0BD0A13",
+  "time": "2016-05-30T23:06:27-07:00",
+  "score": 1.8530417422507708,
+  "threshold": 1.7399469573617126,
+  "categories": [
+   "phone: on table",
+   "transition: yes",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TOILET"
+  ],
+  "explanation": {
+   "acc": 0.2741789625756779,
+   "gyro": 0.6988966861180416,
+   "time": 0.026924351306280455
+  }
+ },
+ {
+  "uuid": "1155FF54-63D3-4AB2-9863-8385D0BD0A13",
+  "time": "2016-05-31T18:43:52-07:00",
+  "score": 1.7619044697440942,
+  "threshold": 1.7399469573617126,
+  "categories": [
+   "phone: on table",
+   "transition: yes",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: COOKING"
+  ],
+  "explanation": {
+   "acc": 0.5257474241804053,
+   "gyro": 0.38638235996797105,
+   "time": 0.0878702158516236
+  }
+ },
+ {
+  "uuid": "1155FF54-63D3-4AB2-9863-8385D0BD0A13",
+  "time": "2016-05-31T20:18:52-07:00",
+  "score": 1.7836192294439464,
+  "threshold": 1.7399469573617126,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: SURFING_THE_INTERNET"
+  ],
+  "explanation": {
+   "acc": 0.5496781403628827,
+   "gyro": 0.39711409045841345,
+   "time": 0.053207769178703866
+  }
+ },
+ {
+  "uuid": "1155FF54-63D3-4AB2-9863-8385D0BD0A13",
+  "time": "2016-05-31T23:33:51-07:00",
+  "score": 1.7626629403454737,
+  "threshold": 1.7399469573617126,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: SURFING_THE_INTERNET"
+  ],
+  "explanation": {
+   "acc": 0.5849747964512915,
+   "gyro": 0.2427447653890348,
+   "time": 0.17228043815967364
+  }
+ },
+ {
+  "uuid": "1155FF54-63D3-4AB2-9863-8385D0BD0A13",
+  "time": "2016-06-02T10:03:43-07:00",
+  "score": 1.7963207415908058,
+  "threshold": 1.7399469573617126,
+  "categories": [
+   "phone: in pocket",
+   "transition: yes",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: ON_A_BUS",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.3675207352973508,
+   "gyro": 0.5058684375308781,
+   "time": 0.1266108271717711
+  }
+ },
+ {
+  "uuid": "11B5EC4D-4133-4289-B475-4E737182A406",
+  "time": "2015-08-23T10:28:55-07:00",
+  "score": 2.0193221943488906,
+  "threshold": 1.9675160355450574,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: LOC_beach"
+  ],
+  "explanation": {
+   "acc": 0.48448353934898697,
+   "gyro": 0.4163053736706656,
+   "time": 0.09921108698034736
+  }
+ },
+ {
+  "uuid": "11B5EC4D-4133-4289-B475-4E737182A406",
+  "time": "2015-08-24T22:43:48-07:00",
+  "score": 2.108964042507528,
+  "threshold": 1.9675160355450574,
+  "categories": [
+   "phone: on table",
+   "transition: yes",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5869221483907777,
+   "gyro": 0.3595140324644256,
+   "time": 0.0535638191447967
+  }
+ },
+ {
+  "uuid": "11B5EC4D-4133-4289-B475-4E737182A406",
+  "time": "2015-08-25T07:35:47-07:00",
+  "score": 2.072952680606649,
+  "threshold": 1.9675160355450574,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.543411423027292,
+   "gyro": 0.4316485408564878,
+   "time": 0.024940036116220417
+  }
+ },
+ {
+  "uuid": "11B5EC4D-4133-4289-B475-4E737182A406",
+  "time": "2015-08-25T07:38:47-07:00",
+  "score": 1.984429362020568,
+  "threshold": 1.9675160355450574,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5106425473100188,
+   "gyro": 0.4444300864455474,
+   "time": 0.044927366244433956
+  }
+ },
+ {
+  "uuid": "11B5EC4D-4133-4289-B475-4E737182A406",
+  "time": "2015-08-25T08:02:47-07:00",
+  "score": 2.178931120144939,
+  "threshold": 1.9675160355450574,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5048412782556014,
+   "gyro": 0.46450908796737966,
+   "time": 0.030649633777018893
+  }
+ },
+ {
+  "uuid": "136562B6-95B2-483D-88DC-065F28409FD2",
+  "time": "2015-08-22T07:48:26-07:00",
+  "score": 1.894806956547996,
+  "threshold": 1.7531758385296663,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.38279645110587057,
+   "gyro": 0.33068784074540425,
+   "time": 0.2865157081487251
+  }
+ },
+ {
+  "uuid": "136562B6-95B2-483D-88DC-065F28409FD2",
+  "time": "2015-08-22T08:45:26-07:00",
+  "score": 1.8678976855110665,
+  "threshold": 1.7531758385296663,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5022109090047757,
+   "gyro": 0.3774842920376396,
+   "time": 0.12030479895758467
+  }
+ },
+ {
+  "uuid": "136562B6-95B2-483D-88DC-065F28409FD2",
+  "time": "2015-08-22T09:28:43-07:00",
+  "score": 1.7781272785654205,
+  "threshold": 1.7531758385296663,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.6469915026855529,
+   "gyro": 0.23755567034717326,
+   "time": 0.1154528269672738
+  }
+ },
+ {
+  "uuid": "136562B6-95B2-483D-88DC-065F28409FD2",
+  "time": "2015-08-22T12:19:43-07:00",
+  "score": 1.7706749146561875,
+  "threshold": 1.7531758385296663,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.3121182877131938,
+   "gyro": 0.5522567371618752,
+   "time": 0.13562497512493094
+  }
+ },
+ {
+  "uuid": "136562B6-95B2-483D-88DC-065F28409FD2",
+  "time": "2015-08-24T15:24:39-07:00",
+  "score": 1.7672529206683887,
+  "threshold": 1.7531758385296663,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.6486080621006368,
+   "gyro": 0.29220176320012925,
+   "time": 0.05919017469923402
+  }
+ },
+ {
+  "uuid": "1538C99F-BA1E-4EFB-A949-6C7C47701B20",
+  "time": "2015-10-26T07:46:54-07:00",
+  "score": 1.711181869326954,
+  "threshold": 1.6640690113576515,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.31647993453991163,
+   "gyro": 0.516013288628864,
+   "time": 0.1675067768312243
+  }
+ },
+ {
+  "uuid": "1538C99F-BA1E-4EFB-A949-6C7C47701B20",
+  "time": "2015-10-26T08:29:54-07:00",
+  "score": 1.9949725383238264,
+  "threshold": 1.6640690113576515,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.30154324109528463,
+   "gyro": 0.48847234969190984,
+   "time": 0.2099844092128056
+  }
+ },
+ {
+  "uuid": "1538C99F-BA1E-4EFB-A949-6C7C47701B20",
+  "time": "2015-10-26T09:10:53-07:00",
+  "score": 1.7087984862823646,
+  "threshold": 1.6640690113576515,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: CLEANING",
+   "context: AT_SCHOOL",
+   "context: WITH_CO-WORKERS"
+  ],
+  "explanation": {
+   "acc": 0.2690807503849979,
+   "gyro": 0.38549983024775275,
+   "time": 0.3454194193672492
+  }
+ },
+ {
+  "uuid": "1538C99F-BA1E-4EFB-A949-6C7C47701B20",
+  "time": "2015-10-26T09:23:53-07:00",
+  "score": 1.7644755437442037,
+  "threshold": 1.6640690113576515,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: CLEANING",
+   "context: AT_SCHOOL",
+   "context: WITH_CO-WORKERS"
+  ],
+  "explanation": {
+   "acc": 0.5530114938538311,
+   "gyro": 0.3163617206624736,
+   "time": 0.13062678548369536
+  }
+ },
+ {
+  "uuid": "1538C99F-BA1E-4EFB-A949-6C7C47701B20",
+  "time": "2015-10-26T15:40:20-07:00",
+  "score": 1.7372273489708074,
+  "threshold": 1.6640690113576515,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: COMPUTER_WORK"
+  ],
+  "explanation": {
+   "acc": 0.28162859795846323,
+   "gyro": 0.5388809250372791,
+   "time": 0.17949047700425752
+  }
+ },
+ {
+  "uuid": "1DBB0F6F-1F81-4A50-9DF4-CD62ACFA4842",
+  "time": "2015-08-31T17:54:59-07:00",
+  "score": 1.6075140816315259,
+  "threshold": 1.4926698545445514,
+  "categories": [
+   "phone: on table",
+   "transition: yes",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: SURFING_THE_INTERNET",
+   "context: COMPUTER_WORK"
+  ],
+  "explanation": {
+   "acc": 0.41617911161736265,
+   "gyro": 0.4381251006802138,
+   "time": 0.1456957877024237
+  }
+ },
+ {
+  "uuid": "1DBB0F6F-1F81-4A50-9DF4-CD62ACFA4842",
+  "time": "2015-09-01T02:22:02-07:00",
+  "score": 1.6861018499224538,
+  "threshold": 1.4926698545445514,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: SURFING_THE_INTERNET"
+  ],
+  "explanation": {
+   "acc": 0.1743955287816379,
+   "gyro": 0.7151955351468909,
+   "time": 0.11040893607147123
+  }
+ },
+ {
+  "uuid": "1DBB0F6F-1F81-4A50-9DF4-CD62ACFA4842",
+  "time": "2015-09-01T13:07:53-07:00",
+  "score": 1.5094120851529786,
+  "threshold": 1.4926698545445514,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: SURFING_THE_INTERNET",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.7236199422732071,
+   "gyro": 0.24884342065358014,
+   "time": 0.027536637073212605
+  }
+ },
+ {
+  "uuid": "1DBB0F6F-1F81-4A50-9DF4-CD62ACFA4842",
+  "time": "2015-09-01T23:53:29-07:00",
+  "score": 1.567863930071543,
+  "threshold": 1.4926698545445514,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.6478868077812805,
+   "gyro": 0.3038134239934294,
+   "time": 0.04829976822529013
+  }
+ },
+ {
+  "uuid": "1DBB0F6F-1F81-4A50-9DF4-CD62ACFA4842",
+  "time": "2015-09-02T10:46:31-07:00",
+  "score": 1.6282166395470448,
+  "threshold": 1.4926698545445514,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates",
+   "context: OR_outside",
+   "context: SURFING_THE_INTERNET",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.19216172640566062,
+   "gyro": 0.7401037680847193,
+   "time": 0.06773450550962004
+  }
+ },
+ {
+  "uuid": "24E40C4C-A349-4F9F-93AB-01D00FB994AF",
+  "time": "2015-10-27T09:35:39-07:00",
+  "score": 1.8731416004651962,
+  "threshold": 1.6772657325787577,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5058352575655726,
+   "gyro": 0.4357148244769729,
+   "time": 0.058449917957454585
+  }
+ },
+ {
+  "uuid": "24E40C4C-A349-4F9F-93AB-01D00FB994AF",
+  "time": "2015-10-30T17:26:20-07:00",
+  "score": 1.6835593938235562,
+  "threshold": 1.6772657325787577,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.3928227488018012,
+   "gyro": 0.3019652741069331,
+   "time": 0.3052119770912658
+  }
+ },
+ {
+  "uuid": "24E40C4C-A349-4F9F-93AB-01D00FB994AF",
+  "time": "2015-11-01T19:33:26-08:00",
+  "score": 1.7524472231311141,
+  "threshold": 1.6772657325787577,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: FIX_restaurant",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.5791255581579327,
+   "gyro": 0.27228961884195885,
+   "time": 0.14858482300010853
+  }
+ },
+ {
+  "uuid": "24E40C4C-A349-4F9F-93AB-01D00FB994AF",
+  "time": "2015-11-01T20:17:27-08:00",
+  "score": 1.7066273255879694,
+  "threshold": 1.6772657325787577,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5771034032132274,
+   "gyro": 0.280231660520318,
+   "time": 0.14266493626645468
+  }
+ },
+ {
+  "uuid": "27E04243-B138-4F40-A164-F40B60165CF3",
+  "time": "2015-11-29T02:35:00-08:00",
+  "score": 1.8185151703428766,
+  "threshold": 1.756043660980208,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.47057976252111633,
+   "gyro": 0.4771773996467832,
+   "time": 0.05224283783210057
+  }
+ },
+ {
+  "uuid": "27E04243-B138-4F40-A164-F40B60165CF3",
+  "time": "2015-11-29T03:15:58-08:00",
+  "score": 1.775713302680742,
+  "threshold": 1.756043660980208,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.7450401423713545,
+   "gyro": 0.15772987978477113,
+   "time": 0.0972299778438744
+  }
+ },
+ {
+  "uuid": "27E04243-B138-4F40-A164-F40B60165CF3",
+  "time": "2015-11-29T03:18:51-08:00",
+  "score": 1.8428610572176722,
+  "threshold": 1.756043660980208,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.4330313727249385,
+   "gyro": 0.5203584633810937,
+   "time": 0.04661016389396775
+  }
+ },
+ {
+  "uuid": "27E04243-B138-4F40-A164-F40B60165CF3",
+  "time": "2015-11-29T03:58:11-08:00",
+  "score": 1.9005269678918115,
+  "threshold": 1.756043660980208,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.5912019246235055,
+   "gyro": 0.334280425711905,
+   "time": 0.07451764966458939
+  }
+ },
+ {
+  "uuid": "27E04243-B138-4F40-A164-F40B60165CF3",
+  "time": "2015-11-29T09:47:36-08:00",
+  "score": 1.8092201974921707,
+  "threshold": 1.756043660980208,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.42874139307561443,
+   "gyro": 0.4795676303059207,
+   "time": 0.09169097661846491
+  }
+ },
+ {
+  "uuid": "2C32C23E-E30C-498A-8DD2-0EFB9150A02E",
+  "time": "2015-08-19T10:21:27-07:00",
+  "score": 1.9926555685547207,
+  "threshold": 1.8138621007660303,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.5400706795315984,
+   "gyro": 0.3573152430164901,
+   "time": 0.10261407745191144
+  }
+ },
+ {
+  "uuid": "2C32C23E-E30C-498A-8DD2-0EFB9150A02E",
+  "time": "2015-08-19T10:45:57-07:00",
+  "score": 2.4886293543158104,
+  "threshold": 1.8138621007660303,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: FIX_restaurant"
+  ],
+  "explanation": {
+   "acc": 0.5522442590083442,
+   "gyro": 0.328201193893383,
+   "time": 0.11955454709827266
+  }
+ },
+ {
+  "uuid": "2C32C23E-E30C-498A-8DD2-0EFB9150A02E",
+  "time": "2015-08-19T21:29:02-07:00",
+  "score": 2.3493489216434247,
+  "threshold": 1.8138621007660303,
+  "categories": [
+   "phone: on table",
+   "transition: yes",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.7080291043307566,
+   "gyro": 0.23997576122981842,
+   "time": 0.05199513443942491
+  }
+ },
+ {
+  "uuid": "2C32C23E-E30C-498A-8DD2-0EFB9150A02E",
+  "time": "2015-08-21T05:31:15-07:00",
+  "score": 1.9446878311623852,
+  "threshold": 1.8138621007660303,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.3800109353027406,
+   "gyro": 0.3375215087758565,
+   "time": 0.2824675559214028
+  }
+ },
+ {
+  "uuid": "2C32C23E-E30C-498A-8DD2-0EFB9150A02E",
+  "time": "2015-08-21T08:45:01-07:00",
+  "score": 1.8397806765243754,
+  "threshold": 1.8138621007660303,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.6074861500356381,
+   "gyro": 0.2958369581284623,
+   "time": 0.09667689183589961
+  }
+ },
+ {
+  "uuid": "40E170A7-607B-4578-AF04-F021C3B0384A",
+  "time": "2015-12-18T15:39:39-08:00",
+  "score": 1.8240545804543964,
+  "threshold": 1.813116704829684,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: SHOPPING"
+  ],
+  "explanation": {
+   "acc": 0.7245719676018347,
+   "gyro": 0.2317275260050851,
+   "time": 0.04370050639308015
+  }
+ },
+ {
+  "uuid": "40E170A7-607B-4578-AF04-F021C3B0384A",
+  "time": "2015-12-18T16:10:01-08:00",
+  "score": 1.8136884089681764,
+  "threshold": 1.813116704829684,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: SHOPPING"
+  ],
+  "explanation": {
+   "acc": 0.6123405471553687,
+   "gyro": 0.15994681942707006,
+   "time": 0.2277126334175612
+  }
+ },
+ {
+  "uuid": "40E170A7-607B-4578-AF04-F021C3B0384A",
+  "time": "2015-12-18T23:31:40-08:00",
+  "score": 1.81831711617474,
+  "threshold": 1.813116704829684,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: WATCHING_TV"
+  ],
+  "explanation": {
+   "acc": 0.5679430354866024,
+   "gyro": 0.3316679333967367,
+   "time": 0.10038903111666087
+  }
+ },
+ {
+  "uuid": "40E170A7-607B-4578-AF04-F021C3B0384A",
+  "time": "2015-12-18T23:32:40-08:00",
+  "score": 1.89512877086832,
+  "threshold": 1.813116704829684,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: WATCHING_TV"
+  ],
+  "explanation": {
+   "acc": 0.8081336048482556,
+   "gyro": 0.138661502519737,
+   "time": 0.05320489263200746
+  }
+ },
+ {
+  "uuid": "40E170A7-607B-4578-AF04-F021C3B0384A",
+  "time": "2015-12-19T12:39:52-08:00",
+  "score": 1.8345058406696464,
+  "threshold": 1.813116704829684,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5037923080921046,
+   "gyro": 0.4263553040126978,
+   "time": 0.06985238789519768
+  }
+ },
+ {
+  "uuid": "481F4DD2-7689-43B9-A2AA-C8772227162B",
+  "time": "2016-05-31T08:21:54-07:00",
+  "score": 1.6754250753890907,
+  "threshold": 1.6580517219716395,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5259292749043931,
+   "gyro": 0.3867192825460469,
+   "time": 0.08735144254956002
+  }
+ },
+ {
+  "uuid": "481F4DD2-7689-43B9-A2AA-C8772227162B",
+  "time": "2016-05-31T09:42:43-07:00",
+  "score": 1.7375784621353876,
+  "threshold": 1.6580517219716395,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: GROOMING"
+  ],
+  "explanation": {
+   "acc": 0.497158793790044,
+   "gyro": 0.47748829557463524,
+   "time": 0.02535291063532074
+  }
+ },
+ {
+  "uuid": "481F4DD2-7689-43B9-A2AA-C8772227162B",
+  "time": "2016-05-31T10:30:06-07:00",
+  "score": 1.7751710794246225,
+  "threshold": 1.6580517219716395,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.4987269651702965,
+   "gyro": 0.48756601211561185,
+   "time": 0.013707022714091736
+  }
+ },
+ {
+  "uuid": "481F4DD2-7689-43B9-A2AA-C8772227162B",
+  "time": "2016-05-31T10:47:22-07:00",
+  "score": 1.7796684207218523,
+  "threshold": 1.6580517219716395,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.5782048183118539,
+   "gyro": 0.333351836896666,
+   "time": 0.08844334479148017
+  }
+ },
+ {
+  "uuid": "481F4DD2-7689-43B9-A2AA-C8772227162B",
+  "time": "2016-06-01T09:34:56-07:00",
+  "score": 1.6911975339742213,
+  "threshold": 1.6580517219716395,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.389011571162744,
+   "gyro": 0.484409595763757,
+   "time": 0.12657883307349901
+  }
+ },
+ {
+  "uuid": "4FC32141-E888-4BFF-8804-12559A491D8C",
+  "time": "2015-08-22T14:47:07-07:00",
+  "score": 2.192549589826915,
+  "threshold": 1.7917620166427919,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.6393218707952408,
+   "gyro": 0.2775855154766766,
+   "time": 0.08309261372808267
+  }
+ },
+ {
+  "uuid": "4FC32141-E888-4BFF-8804-12559A491D8C",
+  "time": "2015-08-22T14:48:07-07:00",
+  "score": 2.365249223094195,
+  "threshold": 1.7917620166427919,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5729427965048964,
+   "gyro": 0.3118664574623189,
+   "time": 0.11519074603278469
+  }
+ },
+ {
+  "uuid": "4FC32141-E888-4BFF-8804-12559A491D8C",
+  "time": "2015-08-22T14:51:07-07:00",
+  "score": 1.8264429163657045,
+  "threshold": 1.7917620166427919,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.3251285925298956,
+   "gyro": 0.44747239353095325,
+   "time": 0.22739901393915113
+  }
+ },
+ {
+  "uuid": "4FC32141-E888-4BFF-8804-12559A491D8C",
+  "time": "2015-08-22T14:54:39-07:00",
+  "score": 1.8630063851359886,
+  "threshold": 1.7917620166427919,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.3021466347286885,
+   "gyro": 0.4799557968293851,
+   "time": 0.21789756844192645
+  }
+ },
+ {
+  "uuid": "4FC32141-E888-4BFF-8804-12559A491D8C",
+  "time": "2015-08-23T07:59:42-07:00",
+  "score": 1.834997689535626,
+  "threshold": 1.7917620166427919,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: bicycling",
+   "explanation: gyro dominates",
+   "context: OR_exercise"
+  ],
+  "explanation": {
+   "acc": 0.457878066953831,
+   "gyro": 0.4680652142743299,
+   "time": 0.07405671877183904
+  }
+ },
+ {
+  "uuid": "5119D0F8-FCA8-4184-A4EB-19421A40DE0D",
+  "time": "2015-09-27T08:22:16-07:00",
+  "score": 1.980768781722037,
+  "threshold": 1.8389713596184099,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.4798400986887944,
+   "gyro": 0.21101288954244202,
+   "time": 0.3091470117687636
+  }
+ },
+ {
+  "uuid": "5119D0F8-FCA8-4184-A4EB-19421A40DE0D",
+  "time": "2015-09-27T08:30:16-07:00",
+  "score": 1.8667962756009835,
+  "threshold": 1.8389713596184099,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.6761768075472651,
+   "gyro": 0.2019472559594249,
+   "time": 0.12187593649330998
+  }
+ },
+ {
+  "uuid": "5119D0F8-FCA8-4184-A4EB-19421A40DE0D",
+  "time": "2015-09-28T09:19:08-07:00",
+  "score": 1.8570835799223737,
+  "threshold": 1.8389713596184099,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: ON_A_BUS",
+   "context: DRIVE_-_I_M_A_PASSENGER"
+  ],
+  "explanation": {
+   "acc": 0.4493653026426958,
+   "gyro": 0.4526901417750755,
+   "time": 0.09794455558222866
+  }
+ },
+ {
+  "uuid": "5119D0F8-FCA8-4184-A4EB-19421A40DE0D",
+  "time": "2015-09-28T13:09:47-07:00",
+  "score": 1.8567832012487773,
+  "threshold": 1.8389713596184099,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.45263510505989274,
+   "gyro": 0.46886191489383133,
+   "time": 0.07850298004627594
+  }
+ },
+ {
+  "uuid": "5119D0F8-FCA8-4184-A4EB-19421A40DE0D",
+  "time": "2015-09-29T06:05:20-07:00",
+  "score": 1.8515149087002878,
+  "threshold": 1.8389713596184099,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.6413144330847363,
+   "gyro": 0.26379526496188804,
+   "time": 0.0948903019533757
+  }
+ },
+ {
+  "uuid": "5152A2DF-FAF3-4BA8-9CA9-E66B32671A53",
+  "time": "2015-09-27T11:57:35-07:00",
+  "score": 1.4554649186250184,
+  "threshold": 1.4550000142270572,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: SURFING_THE_INTERNET",
+   "context: LOC_beach"
+  ],
+  "explanation": {
+   "acc": 0.5684346248106363,
+   "gyro": 0.3349559522249565,
+   "time": 0.0966094229644071
+  }
+ },
+ {
+  "uuid": "5152A2DF-FAF3-4BA8-9CA9-E66B32671A53",
+  "time": "2015-09-27T15:07:35-07:00",
+  "score": 1.5898085586791921,
+  "threshold": 1.4550000142270572,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: SURFING_THE_INTERNET"
+  ],
+  "explanation": {
+   "acc": 0.6438727403688955,
+   "gyro": 0.18356432593868088,
+   "time": 0.17256293369242348
+  }
+ },
+ {
+  "uuid": "5152A2DF-FAF3-4BA8-9CA9-E66B32671A53",
+  "time": "2015-09-28T09:58:45-07:00",
+  "score": 1.568876559806008,
+  "threshold": 1.4550000142270572,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.7152210428913232,
+   "gyro": 0.19196898070609986,
+   "time": 0.09280997640257703
+  }
+ },
+ {
+  "uuid": "5152A2DF-FAF3-4BA8-9CA9-E66B32671A53",
+  "time": "2015-09-28T17:42:31-07:00",
+  "score": 1.5331792432097149,
+  "threshold": 1.4550000142270572,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.5695450269949341,
+   "gyro": 0.3233839890933553,
+   "time": 0.10707098391171052
+  }
+ },
+ {
+  "uuid": "5152A2DF-FAF3-4BA8-9CA9-E66B32671A53",
+  "time": "2015-09-28T20:04:31-07:00",
+  "score": 1.5423868957593363,
+  "threshold": 1.4550000142270572,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.5088075935728957,
+   "gyro": 0.4234800368334238,
+   "time": 0.06771236959368059
+  }
+ },
+ {
+  "uuid": "59818CD2-24D7-4D32-B133-24C2FE3801E5",
+  "time": "2016-05-31T22:29:24-07:00",
+  "score": 1.980103463079941,
+  "threshold": 1.9185069494460176,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5190262181881938,
+   "gyro": 0.3681301249668544,
+   "time": 0.11284365684495187
+  }
+ },
+ {
+  "uuid": "59818CD2-24D7-4D32-B133-24C2FE3801E5",
+  "time": "2016-06-01T07:08:31-07:00",
+  "score": 2.4300623843877758,
+  "threshold": 1.9185069494460176,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: standing",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.29995565347252845,
+   "gyro": 0.6549820478082619,
+   "time": 0.04506229871920985
+  }
+ },
+ {
+  "uuid": "59818CD2-24D7-4D32-B133-24C2FE3801E5",
+  "time": "2016-06-01T09:22:50-07:00",
+  "score": 1.9769856827378791,
+  "threshold": 1.9185069494460176,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: bicycling",
+   "explanation: acc dominates",
+   "context: OR_exercise"
+  ],
+  "explanation": {
+   "acc": 0.4739890714127916,
+   "gyro": 0.43609783919947276,
+   "time": 0.08991308938773565
+  }
+ },
+ {
+  "uuid": "59818CD2-24D7-4D32-B133-24C2FE3801E5",
+  "time": "2016-06-01T09:25:59-07:00",
+  "score": 1.9252298337478995,
+  "threshold": 1.9185069494460176,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: bicycling",
+   "explanation: acc dominates",
+   "context: OR_exercise"
+  ],
+  "explanation": {
+   "acc": 0.5985433224169349,
+   "gyro": 0.363711029608686,
+   "time": 0.037745647974379126
+  }
+ },
+ {
+  "uuid": "59818CD2-24D7-4D32-B133-24C2FE3801E5",
+  "time": "2016-06-01T14:46:36-07:00",
+  "score": 1.9234187007598744,
+  "threshold": 1.9185069494460176,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.6501571589599382,
+   "gyro": 0.2404833202457196,
+   "time": 0.10935952079434216
+  }
+ },
+ {
+  "uuid": "59EEFAE0-DEB0-4FFF-9250-54D2A03D0CF2",
+  "time": "2016-05-31T10:35:45-07:00",
+  "score": 2.024874596583626,
+  "threshold": 1.95409824548697,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: ON_A_BUS",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.6007047984449791,
+   "gyro": 0.29950390265518345,
+   "time": 0.09979129889983744
+  }
+ },
+ {
+  "uuid": "59EEFAE0-DEB0-4FFF-9250-54D2A03D0CF2",
+  "time": "2016-06-01T11:20:39-07:00",
+  "score": 1.986813537480867,
+  "threshold": 1.95409824548697,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.5848650431524607,
+   "gyro": 0.19069806816757343,
+   "time": 0.2244368886799659
+  }
+ },
+ {
+  "uuid": "5EF64122-B513-46AE-BCF1-E62AAC285D2C",
+  "time": "2015-09-18T12:23:58-07:00",
+  "score": 1.867631310009335,
+  "threshold": 1.4664247949522304,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: TALKING",
+   "context: WITH_CO-WORKERS"
+  ],
+  "explanation": {
+   "acc": 0.43184265332414484,
+   "gyro": 0.32401418994436365,
+   "time": 0.24414315673149145
+  }
+ },
+ {
+  "uuid": "5EF64122-B513-46AE-BCF1-E62AAC285D2C",
+  "time": "2015-09-18T12:29:58-07:00",
+  "score": 1.8214028285737407,
+  "threshold": 1.4664247949522304,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: TALKING",
+   "context: WITH_CO-WORKERS"
+  ],
+  "explanation": {
+   "acc": 0.5679104631790273,
+   "gyro": 0.3668632302387943,
+   "time": 0.06522630658217841
+  }
+ },
+ {
+  "uuid": "5EF64122-B513-46AE-BCF1-E62AAC285D2C",
+  "time": "2015-09-18T14:35:56-07:00",
+  "score": 2.1956200342090533,
+  "threshold": 1.4664247949522304,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: LOC_main_workplace",
+   "context: OR_indoors",
+   "context: TALKING",
+   "context: COMPUTER_WORK"
+  ],
+  "explanation": {
+   "acc": 0.6593646157500339,
+   "gyro": 0.27224685469701815,
+   "time": 0.06838852955294798
+  }
+ },
+ {
+  "uuid": "5EF64122-B513-46AE-BCF1-E62AAC285D2C",
+  "time": "2015-09-18T16:50:56-07:00",
+  "score": 1.539187205668047,
+  "threshold": 1.4664247949522304,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: OR_outside",
+   "context: TALKING",
+   "context: WITH_CO-WORKERS"
+  ],
+  "explanation": {
+   "acc": 0.45113584260079814,
+   "gyro": 0.5261622186128984,
+   "time": 0.0227019387863035
+  }
+ },
+ {
+  "uuid": "5EF64122-B513-46AE-BCF1-E62AAC285D2C",
+  "time": "2015-09-18T20:41:05-07:00",
+  "score": 1.6443346388860558,
+  "threshold": 1.4664247949522304,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.4796907562629861,
+   "gyro": 0.414826197747327,
+   "time": 0.10548304598968691
+  }
+ },
+ {
+  "uuid": "61976C24-1C50-4355-9C49-AAE44A7D09F6",
+  "time": "2015-10-01T19:44:06-07:00",
+  "score": 2.046952203543485,
+  "threshold": 1.8194772963762267,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR",
+   "context: DRIVE_-_I_M_A_PASSENGER"
+  ],
+  "explanation": {
+   "acc": 0.5007540776749391,
+   "gyro": 0.40594972353562103,
+   "time": 0.09329619878943993
+  }
+ },
+ {
+  "uuid": "61976C24-1C50-4355-9C49-AAE44A7D09F6",
+  "time": "2015-10-01T20:07:06-07:00",
+  "score": 1.9600768052766178,
+  "threshold": 1.8194772963762267,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR",
+   "context: DRIVE_-_I_M_A_PASSENGER"
+  ],
+  "explanation": {
+   "acc": 0.6559779645379683,
+   "gyro": 0.3265168220276383,
+   "time": 0.017505213434393423
+  }
+ },
+ {
+  "uuid": "61976C24-1C50-4355-9C49-AAE44A7D09F6",
+  "time": "2015-10-02T06:14:33-07:00",
+  "score": 1.93949438671963,
+  "threshold": 1.8194772963762267,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.38364428368366277,
+   "gyro": 0.5231644379753027,
+   "time": 0.09319127834103447
+  }
+ },
+ {
+  "uuid": "61976C24-1C50-4355-9C49-AAE44A7D09F6",
+  "time": "2015-10-02T06:49:33-07:00",
+  "score": 1.9005499279550773,
+  "threshold": 1.8194772963762267,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.37774769483222054,
+   "gyro": 0.49078434559873485,
+   "time": 0.13146795956904453
+  }
+ },
+ {
+  "uuid": "61976C24-1C50-4355-9C49-AAE44A7D09F6",
+  "time": "2015-10-03T07:20:04-07:00",
+  "score": 1.9718292602785876,
+  "threshold": 1.8194772963762267,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.3925266802751227,
+   "gyro": 0.555174525490403,
+   "time": 0.052298794234474165
+  }
+ },
+ {
+  "uuid": "665514DE-49DC-421F-8DCB-145D0B2609AD",
+  "time": "2015-12-08T06:07:29-08:00",
+  "score": 1.6861143765805902,
+  "threshold": 1.6713045318772513,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.08218847148987138,
+   "gyro": 0.6842101067084606,
+   "time": 0.23360142180166804
+  }
+ },
+ {
+  "uuid": "665514DE-49DC-421F-8DCB-145D0B2609AD",
+  "time": "2015-12-08T06:17:17-08:00",
+  "score": 1.6725418782346115,
+  "threshold": 1.6713045318772513,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.08571545130218665,
+   "gyro": 0.6876065455846951,
+   "time": 0.2266780031131181
+  }
+ },
+ {
+  "uuid": "665514DE-49DC-421F-8DCB-145D0B2609AD",
+  "time": "2015-12-09T04:15:53-08:00",
+  "score": 1.7846324590832143,
+  "threshold": 1.6713045318772513,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.09827110877404935,
+   "gyro": 0.6899063164954158,
+   "time": 0.2118225747305348
+  }
+ },
+ {
+  "uuid": "665514DE-49DC-421F-8DCB-145D0B2609AD",
+  "time": "2015-12-09T12:13:42-08:00",
+  "score": 1.6893525455899456,
+  "threshold": 1.6713045318772513,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.4390365706087568,
+   "gyro": 0.43745073647844407,
+   "time": 0.12351269291279912
+  }
+ },
+ {
+  "uuid": "665514DE-49DC-421F-8DCB-145D0B2609AD",
+  "time": "2015-12-10T05:45:15-08:00",
+  "score": 1.7670156610696943,
+  "threshold": 1.6713045318772513,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: time dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.026568470606533147,
+   "gyro": 0.468132704690139,
+   "time": 0.505298824703328
+  }
+ },
+ {
+  "uuid": "74B86067-5D4B-43CF-82CF-341B76BEA0F4",
+  "time": "2015-09-07T06:50:11-07:00",
+  "score": 1.8982388143779914,
+  "threshold": 1.8589494931498365,
+  "categories": [
+   "phone: on table",
+   "transition: yes",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: SURFING_THE_INTERNET",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.5282692242825195,
+   "gyro": 0.20959355968013765,
+   "time": 0.26213721603734275
+  }
+ },
+ {
+  "uuid": "74B86067-5D4B-43CF-82CF-341B76BEA0F4",
+  "time": "2015-09-07T07:44:32-07:00",
+  "score": 1.9019247274594526,
+  "threshold": 1.8589494931498365,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: CLEANING"
+  ],
+  "explanation": {
+   "acc": 0.48934578949958085,
+   "gyro": 0.39687904816562475,
+   "time": 0.11377516233479433
+  }
+ },
+ {
+  "uuid": "78A91A4E-4A51-4065-BDA7-94755F0BB3BB",
+  "time": "2015-12-07T07:46:41-08:00",
+  "score": 1.8016270042123863,
+  "threshold": 1.7046194901557792,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.3954778790091438,
+   "gyro": 0.4265706219459289,
+   "time": 0.17795149904492744
+  }
+ },
+ {
+  "uuid": "78A91A4E-4A51-4065-BDA7-94755F0BB3BB",
+  "time": "2015-12-07T09:06:41-08:00",
+  "score": 1.864387767116573,
+  "threshold": 1.7046194901557792,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5029969164689506,
+   "gyro": 0.42601681172023326,
+   "time": 0.070986271810816
+  }
+ },
+ {
+  "uuid": "78A91A4E-4A51-4065-BDA7-94755F0BB3BB",
+  "time": "2015-12-07T19:05:53-08:00",
+  "score": 1.7710421252296953,
+  "threshold": 1.7046194901557792,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.6850324401222553,
+   "gyro": 0.26471483505983406,
+   "time": 0.050252724817910606
+  }
+ },
+ {
+  "uuid": "78A91A4E-4A51-4065-BDA7-94755F0BB3BB",
+  "time": "2015-12-08T19:56:48-08:00",
+  "score": 1.7266465204425114,
+  "threshold": 1.7046194901557792,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.4079146749262132,
+   "gyro": 0.512012654534518,
+   "time": 0.08007267053926882
+  }
+ },
+ {
+  "uuid": "78A91A4E-4A51-4065-BDA7-94755F0BB3BB",
+  "time": "2015-12-09T11:46:46-08:00",
+  "score": 1.7871616168058182,
+  "threshold": 1.7046194901557792,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5340893765155034,
+   "gyro": 0.3399597653546374,
+   "time": 0.12595085812985926
+  }
+ },
+ {
+  "uuid": "797D145F-3858-4A7F-A7C2-A4EB721E133C",
+  "time": "2015-12-16T02:03:56-08:00",
+  "score": 2.0037051175538894,
+  "threshold": 1.7083784933327968,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.4123753397949311,
+   "gyro": 0.43386761108313254,
+   "time": 0.15375704912193636
+  }
+ },
+ {
+  "uuid": "797D145F-3858-4A7F-A7C2-A4EB721E133C",
+  "time": "2015-12-16T15:46:32-08:00",
+  "score": 1.9224038152480016,
+  "threshold": 1.7083784933327968,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5098766093516066,
+   "gyro": 0.39332319607908506,
+   "time": 0.09680019456930829
+  }
+ },
+ {
+  "uuid": "797D145F-3858-4A7F-A7C2-A4EB721E133C",
+  "time": "2015-12-16T18:25:48-08:00",
+  "score": 1.763412226275409,
+  "threshold": 1.7083784933327968,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.33866990577914674,
+   "gyro": 0.5718535107307519,
+   "time": 0.08947658349010126
+  }
+ },
+ {
+  "uuid": "797D145F-3858-4A7F-A7C2-A4EB721E133C",
+  "time": "2015-12-16T18:27:49-08:00",
+  "score": 1.94769070953449,
+  "threshold": 1.7083784933327968,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.3512807083275573,
+   "gyro": 0.5947373873567144,
+   "time": 0.05398190431572819
+  }
+ },
+ {
+  "uuid": "797D145F-3858-4A7F-A7C2-A4EB721E133C",
+  "time": "2015-12-16T18:31:49-08:00",
+  "score": 1.8139868933044532,
+  "threshold": 1.7083784933327968,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.2780231022948181,
+   "gyro": 0.6359442360290387,
+   "time": 0.08603266167614329
+  }
+ },
+ {
+  "uuid": "7CE37510-56D0-4120-A1CF-0E23351428D2",
+  "time": "2015-10-11T15:28:50-07:00",
+  "score": 1.8090113239824805,
+  "threshold": 1.703956107322839,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_MEETING",
+   "context: OR_indoors",
+   "context: TALKING",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.4961457758176183,
+   "gyro": 0.38881286801329645,
+   "time": 0.11504135616908519
+  }
+ },
+ {
+  "uuid": "7CE37510-56D0-4120-A1CF-0E23351428D2",
+  "time": "2015-10-11T17:00:50-07:00",
+  "score": 1.7222627103527448,
+  "threshold": 1.703956107322839,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_MEETING",
+   "context: OR_indoors",
+   "context: TALKING",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.5060849371590153,
+   "gyro": 0.41449612474934383,
+   "time": 0.07941893809164088
+  }
+ },
+ {
+  "uuid": "7CE37510-56D0-4120-A1CF-0E23351428D2",
+  "time": "2015-10-11T23:54:31-07:00",
+  "score": 1.705816549496903,
+  "threshold": 1.703956107322839,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5651764062413809,
+   "gyro": 0.3899508058144937,
+   "time": 0.044872787944125386
+  }
+ },
+ {
+  "uuid": "7CE37510-56D0-4120-A1CF-0E23351428D2",
+  "time": "2015-10-12T08:27:08-07:00",
+  "score": 1.862946882224873,
+  "threshold": 1.703956107322839,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.4720065480895314,
+   "gyro": 0.44242353069558055,
+   "time": 0.08556992121488807
+  }
+ },
+ {
+  "uuid": "7CE37510-56D0-4120-A1CF-0E23351428D2",
+  "time": "2015-10-13T00:22:45-07:00",
+  "score": 1.7580032717178817,
+  "threshold": 1.703956107322839,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.5528646972123157,
+   "gyro": 0.37388155853151717,
+   "time": 0.07325374425616718
+  }
+ },
+ {
+  "uuid": "8023FE1A-D3B0-4E2C-A57A-9321B7FC755F",
+  "time": "2015-11-02T16:31:33-08:00",
+  "score": 1.9226135387809407,
+  "threshold": 1.814625494646926,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5645089247522899,
+   "gyro": 0.39324033283622833,
+   "time": 0.042250742411481836
+  }
+ },
+ {
+  "uuid": "8023FE1A-D3B0-4E2C-A57A-9321B7FC755F",
+  "time": "2015-11-02T20:35:29-08:00",
+  "score": 1.9280702878099913,
+  "threshold": 1.814625494646926,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.48592082538876463,
+   "gyro": 0.4512891694899463,
+   "time": 0.06279000512128911
+  }
+ },
+ {
+  "uuid": "8023FE1A-D3B0-4E2C-A57A-9321B7FC755F",
+  "time": "2015-11-03T11:57:47-08:00",
+  "score": 2.0443293143567067,
+  "threshold": 1.814625494646926,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5559276009299251,
+   "gyro": 0.38476551205980086,
+   "time": 0.0593068870102741
+  }
+ },
+ {
+  "uuid": "8023FE1A-D3B0-4E2C-A57A-9321B7FC755F",
+  "time": "2015-11-03T16:25:34-08:00",
+  "score": 1.9051137183644264,
+  "threshold": 1.814625494646926,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5622869772088572,
+   "gyro": 0.3899105970793234,
+   "time": 0.04780242571181939
+  }
+ },
+ {
+  "uuid": "8023FE1A-D3B0-4E2C-A57A-9321B7FC755F",
+  "time": "2015-11-04T08:39:11-08:00",
+  "score": 1.8731657896724336,
+  "threshold": 1.814625494646926,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TOILET"
+  ],
+  "explanation": {
+   "acc": 0.5216710133699536,
+   "gyro": 0.4360433476088083,
+   "time": 0.04228563902123809
+  }
+ },
+ {
+  "uuid": "806289BC-AD52-4CC1-806C-0CDB14D65EB6",
+  "time": "2015-11-28T01:45:14-08:00",
+  "score": 1.8274621870119478,
+  "threshold": 1.7680181705833249,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: WATCHING_TV"
+  ],
+  "explanation": {
+   "acc": 0.4803731688071889,
+   "gyro": 0.3495543193721762,
+   "time": 0.17007251182063496
+  }
+ },
+ {
+  "uuid": "806289BC-AD52-4CC1-806C-0CDB14D65EB6",
+  "time": "2015-11-28T03:48:45-08:00",
+  "score": 1.811722263815311,
+  "threshold": 1.7680181705833249,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.38262308213761553,
+   "gyro": 0.4807610141065204,
+   "time": 0.13661590375586416
+  }
+ },
+ {
+  "uuid": "806289BC-AD52-4CC1-806C-0CDB14D65EB6",
+  "time": "2015-11-28T22:41:43-08:00",
+  "score": 1.8308711120744257,
+  "threshold": 1.7680181705833249,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.49370765188314963,
+   "gyro": 0.3894412631196526,
+   "time": 0.11685108499719768
+  }
+ },
+ {
+  "uuid": "806289BC-AD52-4CC1-806C-0CDB14D65EB6",
+  "time": "2015-11-30T05:50:22-08:00",
+  "score": 2.1394720109551058,
+  "threshold": 1.7680181705833249,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.4053149080964371,
+   "gyro": 0.49143313801793603,
+   "time": 0.10325195388562686
+  }
+ },
+ {
+  "uuid": "806289BC-AD52-4CC1-806C-0CDB14D65EB6",
+  "time": "2015-11-30T06:45:00-08:00",
+  "score": 1.8920334935936993,
+  "threshold": 1.7680181705833249,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: ON_A_BUS"
+  ],
+  "explanation": {
+   "acc": 0.46513725985940946,
+   "gyro": 0.4677640422758095,
+   "time": 0.06709869786478115
+  }
+ },
+ {
+  "uuid": "81536B0A-8DBF-4D8A-AC24-9543E2E4C8E0",
+  "time": "2015-11-02T19:36:52-08:00",
+  "score": 1.7811975194387721,
+  "threshold": 1.6565727185089654,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: SURFING_THE_INTERNET",
+   "context: COMPUTER_WORK"
+  ],
+  "explanation": {
+   "acc": 0.31646779807937436,
+   "gyro": 0.5870182062405462,
+   "time": 0.09651399568007946
+  }
+ },
+ {
+  "uuid": "81536B0A-8DBF-4D8A-AC24-9543E2E4C8E0",
+  "time": "2015-11-03T13:05:38-08:00",
+  "score": 1.7536789623005018,
+  "threshold": 1.6565727185089654,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: WATCHING_TV",
+   "context: SURFING_THE_INTERNET",
+   "context: COMPUTER_WORK",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.49626851402580957,
+   "gyro": 0.37939793920069925,
+   "time": 0.12433354677349125
+  }
+ },
+ {
+  "uuid": "81536B0A-8DBF-4D8A-AC24-9543E2E4C8E0",
+  "time": "2015-11-03T18:17:37-08:00",
+  "score": 1.772076435256818,
+  "threshold": 1.6565727185089654,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.21343628128968367,
+   "gyro": 0.655477588215728,
+   "time": 0.1310861304945883
+  }
+ },
+ {
+  "uuid": "81536B0A-8DBF-4D8A-AC24-9543E2E4C8E0",
+  "time": "2015-11-04T07:38:26-08:00",
+  "score": 1.7670349588599392,
+  "threshold": 1.6565727185089654,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.36842180031864474,
+   "gyro": 0.4351175094818774,
+   "time": 0.19646069019947796
+  }
+ },
+ {
+  "uuid": "81536B0A-8DBF-4D8A-AC24-9543E2E4C8E0",
+  "time": "2015-11-04T18:16:12-08:00",
+  "score": 1.6829806196884292,
+  "threshold": 1.6565727185089654,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: SURFING_THE_INTERNET",
+   "context: COMPUTER_WORK"
+  ],
+  "explanation": {
+   "acc": 0.3971790291882066,
+   "gyro": 0.5097103562221217,
+   "time": 0.09311061458967174
+  }
+ },
+ {
+  "uuid": "83CF687B-7CEC-434B-9FE8-00C3D5799BE6",
+  "time": "2015-12-12T00:30:42-08:00",
+  "score": 1.798808233540053,
+  "threshold": 1.6787578009657211,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: TALKING",
+   "context: COMPUTER_WORK",
+   "context: AT_SCHOOL",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.6087921419470712,
+   "gyro": 0.18012227400174116,
+   "time": 0.2110855840511876
+  }
+ },
+ {
+  "uuid": "83CF687B-7CEC-434B-9FE8-00C3D5799BE6",
+  "time": "2015-12-12T11:39:41-08:00",
+  "score": 1.7461941470866482,
+  "threshold": 1.6787578009657211,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: COMPUTER_WORK",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.4830398330376126,
+   "gyro": 0.3808166875861857,
+   "time": 0.13614347937620178
+  }
+ },
+ {
+  "uuid": "83CF687B-7CEC-434B-9FE8-00C3D5799BE6",
+  "time": "2015-12-13T09:53:17-08:00",
+  "score": 1.7992730954576668,
+  "threshold": 1.6787578009657211,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5046766034138166,
+   "gyro": 0.3725828660693505,
+   "time": 0.12274053051683287
+  }
+ },
+ {
+  "uuid": "83CF687B-7CEC-434B-9FE8-00C3D5799BE6",
+  "time": "2015-12-13T17:38:16-08:00",
+  "score": 1.8491377314455022,
+  "threshold": 1.6787578009657211,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.5725647781970632,
+   "gyro": 0.3578406583236346,
+   "time": 0.0695945634793022
+  }
+ },
+ {
+  "uuid": "83CF687B-7CEC-434B-9FE8-00C3D5799BE6",
+  "time": "2015-12-13T17:57:16-08:00",
+  "score": 1.8026772185526176,
+  "threshold": 1.6787578009657211,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.43784543243806034,
+   "gyro": 0.48499200829920763,
+   "time": 0.07716255926273204
+  }
+ },
+ {
+  "uuid": "86A4F379-B305-473D-9D83-FC7D800180EF",
+  "time": "2015-09-01T06:49:32-07:00",
+  "score": 1.793541057000191,
+  "threshold": 1.6657254257621894,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5327982203637375,
+   "gyro": 0.3939704691075012,
+   "time": 0.07323131052876122
+  }
+ },
+ {
+  "uuid": "86A4F379-B305-473D-9D83-FC7D800180EF",
+  "time": "2015-09-01T06:50:52-07:00",
+  "score": 1.8092983842821677,
+  "threshold": 1.6657254257621894,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5561050957525915,
+   "gyro": 0.39557031656595976,
+   "time": 0.048324587681448865
+  }
+ },
+ {
+  "uuid": "86A4F379-B305-473D-9D83-FC7D800180EF",
+  "time": "2015-09-01T07:28:38-07:00",
+  "score": 1.7604932613513777,
+  "threshold": 1.6657254257621894,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: LOC_main_workplace",
+   "context: COMPUTER_WORK"
+  ],
+  "explanation": {
+   "acc": 0.356193096961699,
+   "gyro": 0.5545692964137244,
+   "time": 0.08923760662457658
+  }
+ },
+ {
+  "uuid": "86A4F379-B305-473D-9D83-FC7D800180EF",
+  "time": "2015-09-02T00:02:16-07:00",
+  "score": 1.858658899847597,
+  "threshold": 1.6657254257621894,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.2903529612548557,
+   "gyro": 0.6281899947417389,
+   "time": 0.0814570440034054
+  }
+ },
+ {
+  "uuid": "9759096F-1119-4E19-A0AD-6F16989C7E1C",
+  "time": "2015-09-14T06:57:43-07:00",
+  "score": 1.7106053195067479,
+  "threshold": 1.693764328956969,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5689026544315381,
+   "gyro": 0.41815753605228023,
+   "time": 0.012939809516181646
+  }
+ },
+ {
+  "uuid": "9759096F-1119-4E19-A0AD-6F16989C7E1C",
+  "time": "2015-09-14T06:58:43-07:00",
+  "score": 1.8198742403163144,
+  "threshold": 1.693764328956969,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.47541110883006366,
+   "gyro": 0.42344178033370455,
+   "time": 0.10114711083623165
+  }
+ },
+ {
+  "uuid": "9759096F-1119-4E19-A0AD-6F16989C7E1C",
+  "time": "2015-09-14T08:59:42-07:00",
+  "score": 1.884982997080191,
+  "threshold": 1.693764328956969,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.6005751245252975,
+   "gyro": 0.3677117347573226,
+   "time": 0.03171314071737986
+  }
+ },
+ {
+  "uuid": "9759096F-1119-4E19-A0AD-6F16989C7E1C",
+  "time": "2015-09-14T12:01:42-07:00",
+  "score": 1.7613127408338918,
+  "threshold": 1.693764328956969,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: COMPUTER_WORK",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.43047712400979854,
+   "gyro": 0.4401017533769592,
+   "time": 0.12942112261324235
+  }
+ },
+ {
+  "uuid": "9759096F-1119-4E19-A0AD-6F16989C7E1C",
+  "time": "2015-09-14T17:29:38-07:00",
+  "score": 1.7509553482096334,
+  "threshold": 1.693764328956969,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.5050940882617965,
+   "gyro": 0.4379010197713349,
+   "time": 0.05700489196686853
+  }
+ },
+ {
+  "uuid": "99B204C0-DD5C-4BB7-83E8-A37281B8D769",
+  "time": "2015-10-13T18:18:02-07:00",
+  "score": 1.8130404327336958,
+  "threshold": 1.7189842538963822,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5671079851055716,
+   "gyro": 0.4189018964558878,
+   "time": 0.013990118438540646
+  }
+ },
+ {
+  "uuid": "99B204C0-DD5C-4BB7-83E8-A37281B8D769",
+  "time": "2015-10-13T18:51:58-07:00",
+  "score": 1.7277021909051253,
+  "threshold": 1.7189842538963822,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: bicycling",
+   "explanation: gyro dominates",
+   "context: OR_exercise",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.32787577324993644,
+   "gyro": 0.6576718853504543,
+   "time": 0.01445234139960936
+  }
+ },
+ {
+  "uuid": "99B204C0-DD5C-4BB7-83E8-A37281B8D769",
+  "time": "2015-10-15T04:29:35-07:00",
+  "score": 2.096977758328808,
+  "threshold": 1.7189842538963822,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.37211436076561816,
+   "gyro": 0.3672017280137133,
+   "time": 0.26068391122066853
+  }
+ },
+ {
+  "uuid": "99B204C0-DD5C-4BB7-83E8-A37281B8D769",
+  "time": "2015-10-15T07:11:52-07:00",
+  "score": 1.840271176753247,
+  "threshold": 1.7189842538963822,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5026883518907497,
+   "gyro": 0.2926747411307424,
+   "time": 0.20463690697850795
+  }
+ },
+ {
+  "uuid": "99B204C0-DD5C-4BB7-83E8-A37281B8D769",
+  "time": "2015-10-15T07:59:30-07:00",
+  "score": 1.879475543616768,
+  "threshold": 1.7189842538963822,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_MEETING",
+   "context: COMPUTER_WORK",
+   "context: WITH_CO-WORKERS"
+  ],
+  "explanation": {
+   "acc": 0.4272111571064668,
+   "gyro": 0.4052773812717301,
+   "time": 0.16751146162180316
+  }
+ },
+ {
+  "uuid": "9DC38D04-E82E-4F29-AB52-B476535226F2",
+  "time": "2015-12-04T17:11:56-08:00",
+  "score": 1.6914468927611153,
+  "threshold": 1.635921533580587,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.36416284817944644,
+   "gyro": 0.5657786588542622,
+   "time": 0.07005849296629135
+  }
+ },
+ {
+  "uuid": "9DC38D04-E82E-4F29-AB52-B476535226F2",
+  "time": "2015-12-04T21:18:05-08:00",
+  "score": 1.8356936115048943,
+  "threshold": 1.635921533580587,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home",
+   "context: DRINKING__ALCOHOL_",
+   "context: AT_A_PARTY"
+  ],
+  "explanation": {
+   "acc": 0.6576544128433457,
+   "gyro": 0.3036979531351702,
+   "time": 0.03864763402148412
+  }
+ },
+ {
+  "uuid": "9DC38D04-E82E-4F29-AB52-B476535226F2",
+  "time": "2015-12-06T14:27:01-08:00",
+  "score": 1.6513991968580726,
+  "threshold": 1.635921533580587,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: bicycling",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: OR_exercise",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.6036918720867164,
+   "gyro": 0.2847457296413648,
+   "time": 0.11156239827191888
+  }
+ },
+ {
+  "uuid": "9DC38D04-E82E-4F29-AB52-B476535226F2",
+  "time": "2015-12-06T22:48:12-08:00",
+  "score": 1.8502438695436496,
+  "threshold": 1.635921533580587,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: TALKING",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.4078087495227382,
+   "gyro": 0.3662009405427815,
+   "time": 0.22599030993448027
+  }
+ },
+ {
+  "uuid": "9DC38D04-E82E-4F29-AB52-B476535226F2",
+  "time": "2015-12-07T00:37:12-08:00",
+  "score": 1.8928238719183574,
+  "threshold": 1.635921533580587,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.6127212253102794,
+   "gyro": 0.32321839250713746,
+   "time": 0.06406038218258314
+  }
+ },
+ {
+  "uuid": "A5CDF89D-02A2-4EC1-89F8-F534FDABDD96",
+  "time": "2015-08-30T22:52:42-07:00",
+  "score": 1.7696286520909603,
+  "threshold": 1.6530357731744825,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: WATCHING_TV",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.3675138941877698,
+   "gyro": 0.4957036093928133,
+   "time": 0.13678249641941684
+  }
+ },
+ {
+  "uuid": "A5CDF89D-02A2-4EC1-89F8-F534FDABDD96",
+  "time": "2015-08-30T23:30:42-07:00",
+  "score": 1.8341709000377602,
+  "threshold": 1.6530357731744825,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: WATCHING_TV",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.3090175108137538,
+   "gyro": 0.5943306951421078,
+   "time": 0.0966517940441384
+  }
+ },
+ {
+  "uuid": "A5CDF89D-02A2-4EC1-89F8-F534FDABDD96",
+  "time": "2015-08-31T00:06:42-07:00",
+  "score": 1.8550192183813714,
+  "threshold": 1.6530357731744825,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: WATCHING_TV",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.49729104314368744,
+   "gyro": 0.34482068937947297,
+   "time": 0.15788826747683965
+  }
+ },
+ {
+  "uuid": "A5CDF89D-02A2-4EC1-89F8-F534FDABDD96",
+  "time": "2015-08-31T00:29:42-07:00",
+  "score": 1.6590183186113925,
+  "threshold": 1.6530357731744825,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: WATCHING_TV",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.28695777813557216,
+   "gyro": 0.5710352149486201,
+   "time": 0.14200700691580762
+  }
+ },
+ {
+  "uuid": "A5CDF89D-02A2-4EC1-89F8-F534FDABDD96",
+  "time": "2015-08-31T18:54:47-07:00",
+  "score": 1.7017362134429432,
+  "threshold": 1.6530357731744825,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.30930162545109197,
+   "gyro": 0.6713793872096657,
+   "time": 0.019318987339242293
+  }
+ },
+ {
+  "uuid": "A7599A50-24AE-46A6-8EA6-2576F1011D81",
+  "time": "2015-11-10T12:28:50-08:00",
+  "score": 1.876067275857397,
+  "threshold": 1.8515209432198745,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors"
+  ],
+  "explanation": {
+   "acc": 0.448829678513203,
+   "gyro": 0.388875148793471,
+   "time": 0.16229517269332594
+  }
+ },
+ {
+  "uuid": "A7599A50-24AE-46A6-8EA6-2576F1011D81",
+  "time": "2015-11-10T16:49:56-08:00",
+  "score": 1.9252027446496414,
+  "threshold": 1.8515209432198745,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: SHOPPING",
+   "context: STROLLING"
+  ],
+  "explanation": {
+   "acc": 0.5798902026032035,
+   "gyro": 0.31643193371177214,
+   "time": 0.10367786368502446
+  }
+ },
+ {
+  "uuid": "A7599A50-24AE-46A6-8EA6-2576F1011D81",
+  "time": "2015-11-10T19:30:06-08:00",
+  "score": 1.8903958802641854,
+  "threshold": 1.8515209432198745,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: SHOPPING"
+  ],
+  "explanation": {
+   "acc": 0.5784738509354839,
+   "gyro": 0.32107944531612664,
+   "time": 0.10044670374838932
+  }
+ },
+ {
+  "uuid": "A7599A50-24AE-46A6-8EA6-2576F1011D81",
+  "time": "2015-11-11T12:12:53-08:00",
+  "score": 1.9043999569389853,
+  "threshold": 1.8515209432198745,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5034330386940807,
+   "gyro": 0.450739880268697,
+   "time": 0.045827081037222266
+  }
+ },
+ {
+  "uuid": "A7599A50-24AE-46A6-8EA6-2576F1011D81",
+  "time": "2015-11-11T14:36:17-08:00",
+  "score": 1.8901861597439111,
+  "threshold": 1.8515209432198745,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5582949197674101,
+   "gyro": 0.39788431911810734,
+   "time": 0.043820761114482534
+  }
+ },
+ {
+  "uuid": "A76A5AF5-5A93-4CF2-A16E-62353BB70E8A",
+  "time": "2015-09-26T12:30:52-07:00",
+  "score": 1.761289279366649,
+  "threshold": 1.6439855855191159,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.43280168418491866,
+   "gyro": 0.48866828950385216,
+   "time": 0.07853002631122924
+  }
+ },
+ {
+  "uuid": "A76A5AF5-5A93-4CF2-A16E-62353BB70E8A",
+  "time": "2015-09-26T12:31:52-07:00",
+  "score": 1.724506552141305,
+  "threshold": 1.6439855855191159,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.44021482526105005,
+   "gyro": 0.4494272678737063,
+   "time": 0.11035790686524358
+  }
+ },
+ {
+  "uuid": "A76A5AF5-5A93-4CF2-A16E-62353BB70E8A",
+  "time": "2015-09-26T21:03:52-07:00",
+  "score": 1.760483378128343,
+  "threshold": 1.6439855855191159,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5128925564755636,
+   "gyro": 0.3660545291748048,
+   "time": 0.12105291434963156
+  }
+ },
+ {
+  "uuid": "A76A5AF5-5A93-4CF2-A16E-62353BB70E8A",
+  "time": "2015-09-26T22:30:52-07:00",
+  "score": 1.7147041053515093,
+  "threshold": 1.6439855855191159,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.49628836319649006,
+   "gyro": 0.3919619231026121,
+   "time": 0.11174971370089783
+  }
+ },
+ {
+  "uuid": "A76A5AF5-5A93-4CF2-A16E-62353BB70E8A",
+  "time": "2015-09-26T23:19:52-07:00",
+  "score": 1.7902064970096465,
+  "threshold": 1.6439855855191159,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5018391578390416,
+   "gyro": 0.38586823191076386,
+   "time": 0.11229261025019448
+  }
+ },
+ {
+  "uuid": "B09E373F-8A54-44C8-895B-0039390B859F",
+  "time": "2015-11-11T00:11:21-08:00",
+  "score": 1.644325995291135,
+  "threshold": 1.6411231168437648,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5662505093419807,
+   "gyro": 0.20275793326556954,
+   "time": 0.23099155739244975
+  }
+ },
+ {
+  "uuid": "B09E373F-8A54-44C8-895B-0039390B859F",
+  "time": "2015-11-11T00:18:21-08:00",
+  "score": 1.7784089501802096,
+  "threshold": 1.6411231168437648,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: time dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.3221053807143313,
+   "gyro": 0.31931661167479714,
+   "time": 0.3585780076108716
+  }
+ },
+ {
+  "uuid": "B09E373F-8A54-44C8-895B-0039390B859F",
+  "time": "2015-11-11T00:29:21-08:00",
+  "score": 1.8547994134998302,
+  "threshold": 1.6411231168437648,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: time dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.22924886002416944,
+   "gyro": 0.33584671948729505,
+   "time": 0.4349044204885355
+  }
+ },
+ {
+  "uuid": "B09E373F-8A54-44C8-895B-0039390B859F",
+  "time": "2015-11-11T00:30:21-08:00",
+  "score": 1.8012496778314286,
+  "threshold": 1.6411231168437648,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: time dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.30162975257471597,
+   "gyro": 0.24880547897192065,
+   "time": 0.4495647684533634
+  }
+ },
+ {
+  "uuid": "B09E373F-8A54-44C8-895B-0039390B859F",
+  "time": "2015-11-11T00:32:21-08:00",
+  "score": 1.8357323894583906,
+  "threshold": 1.6411231168437648,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: gyro dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.2761062187417106,
+   "gyro": 0.3677359068629448,
+   "time": 0.3561578743953447
+  }
+ },
+ {
+  "uuid": "B7F9D634-263E-4A97-87F9-6FFB4DDCB36C",
+  "time": "2015-09-01T18:26:11-07:00",
+  "score": 2.1410072342673137,
+  "threshold": 2.113683828679071,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.568541959430033,
+   "gyro": 0.3844627152567279,
+   "time": 0.046995325313239064
+  }
+ },
+ {
+  "uuid": "B7F9D634-263E-4A97-87F9-6FFB4DDCB36C",
+  "time": "2015-09-02T12:35:12-07:00",
+  "score": 2.114209444432279,
+  "threshold": 2.113683828679071,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: LOC_main_workplace",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.6992451122990113,
+   "gyro": 0.19524548677218076,
+   "time": 0.10550940092880812
+  }
+ },
+ {
+  "uuid": "B7F9D634-263E-4A97-87F9-6FFB4DDCB36C",
+  "time": "2015-09-02T12:56:14-07:00",
+  "score": 2.231989935439206,
+  "threshold": 2.113683828679071,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: LOC_main_workplace",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.7050184706094358,
+   "gyro": 0.19000437010051477,
+   "time": 0.10497715929004943
+  }
+ },
+ {
+  "uuid": "B7F9D634-263E-4A97-87F9-6FFB4DDCB36C",
+  "time": "2015-09-02T12:58:12-07:00",
+  "score": 2.2803865225764555,
+  "threshold": 2.113683828679071,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: LOC_main_workplace",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.6715753819477475,
+   "gyro": 0.27248835390683457,
+   "time": 0.055936264145418066
+  }
+ },
+ {
+  "uuid": "B7F9D634-263E-4A97-87F9-6FFB4DDCB36C",
+  "time": "2015-09-02T13:01:14-07:00",
+  "score": 2.1935457051515175,
+  "threshold": 2.113683828679071,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: LOC_main_workplace",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.6864554395720651,
+   "gyro": 0.20910288656200512,
+   "time": 0.10444167386592963
+  }
+ },
+ {
+  "uuid": "B9724848-C7E2-45F4-9B3F-A1F38D864495",
+  "time": "2015-11-21T22:38:14-08:00",
+  "score": 1.7488049232391547,
+  "threshold": 1.7099647644852145,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: COMPUTER_WORK",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.3283291396317905,
+   "gyro": 0.63859708666007,
+   "time": 0.03307377370813935
+  }
+ },
+ {
+  "uuid": "B9724848-C7E2-45F4-9B3F-A1F38D864495",
+  "time": "2015-11-22T16:33:01-08:00",
+  "score": 1.8810292410060687,
+  "threshold": 1.7099647644852145,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.35010929277973235,
+   "gyro": 0.5335639769597049,
+   "time": 0.11632673026056278
+  }
+ },
+ {
+  "uuid": "B9724848-C7E2-45F4-9B3F-A1F38D864495",
+  "time": "2015-11-23T06:39:55-08:00",
+  "score": 1.7509064820499638,
+  "threshold": 1.7099647644852145,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.3755207982110553,
+   "gyro": 0.3398311145776824,
+   "time": 0.2846480872112622
+  }
+ },
+ {
+  "uuid": "B9724848-C7E2-45F4-9B3F-A1F38D864495",
+  "time": "2015-11-23T07:00:31-08:00",
+  "score": 1.7747482381902355,
+  "threshold": 1.7099647644852145,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.46671732528780235,
+   "gyro": 0.43698197914001036,
+   "time": 0.09630069557218726
+  }
+ },
+ {
+  "uuid": "B9724848-C7E2-45F4-9B3F-A1F38D864495",
+  "time": "2015-11-23T09:42:30-08:00",
+  "score": 1.8543172614978976,
+  "threshold": 1.7099647644852145,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: TALKING",
+   "context: EATING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.39378499243431775,
+   "gyro": 0.4638408256351709,
+   "time": 0.14237418193051152
+  }
+ },
+ {
+  "uuid": "BE3CA5A6-A561-4BBD-B7C9-5DF6805400FC",
+  "time": "2015-10-18T13:57:24-07:00",
+  "score": 1.983199978837936,
+  "threshold": 1.6892367071208678,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: EATING"
+  ],
+  "explanation": {
+   "acc": 0.4927036605112443,
+   "gyro": 0.47675345501768107,
+   "time": 0.03054288447107465
+  }
+ },
+ {
+  "uuid": "BE3CA5A6-A561-4BBD-B7C9-5DF6805400FC",
+  "time": "2015-10-18T21:55:59-07:00",
+  "score": 1.7047886786238695,
+  "threshold": 1.6892367071208678,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: DRIVE_-_I_M_THE_DRIVER"
+  ],
+  "explanation": {
+   "acc": 0.5824080109510763,
+   "gyro": 0.29885515664342427,
+   "time": 0.11873683240549947
+  }
+ },
+ {
+  "uuid": "BE3CA5A6-A561-4BBD-B7C9-5DF6805400FC",
+  "time": "2015-10-19T02:17:00-07:00",
+  "score": 1.7581932940361629,
+  "threshold": 1.6892367071208678,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.49297705015554333,
+   "gyro": 0.41979127008822514,
+   "time": 0.08723167975623153
+  }
+ },
+ {
+  "uuid": "BE3CA5A6-A561-4BBD-B7C9-5DF6805400FC",
+  "time": "2015-10-19T08:26:52-07:00",
+  "score": 1.728087544016217,
+  "threshold": 1.6892367071208678,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.6865903965521994,
+   "gyro": 0.2655034422648787,
+   "time": 0.04790616118292186
+  }
+ },
+ {
+  "uuid": "BE3CA5A6-A561-4BBD-B7C9-5DF6805400FC",
+  "time": "2015-10-20T09:22:35-07:00",
+  "score": 1.7107731661113115,
+  "threshold": 1.6892367071208678,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: COOKING",
+   "context: CLEANING"
+  ],
+  "explanation": {
+   "acc": 0.4403743915377744,
+   "gyro": 0.4673507250893954,
+   "time": 0.09227488337283021
+  }
+ },
+ {
+  "uuid": "BEF6C611-50DA-4971-A040-87FB979F3FC1",
+  "time": "2015-08-04T08:07:55-07:00",
+  "score": 2.1447437161645917,
+  "threshold": 1.9633047094592952,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: walking",
+   "explanation: gyro dominates"
+  ],
+  "explanation": {
+   "acc": 0.3527911904867891,
+   "gyro": 0.49294627749918735,
+   "time": 0.15426253201402357
+  }
+ },
+ {
+  "uuid": "BEF6C611-50DA-4971-A040-87FB979F3FC1",
+  "time": "2015-08-04T10:26:24-07:00",
+  "score": 2.055896029324094,
+  "threshold": 1.9633047094592952,
+  "categories": [
+   "phone: not reported",
+   "transition: yes",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5096796911935306,
+   "gyro": 0.42249844929402686,
+   "time": 0.0678218595124425
+  }
+ },
+ {
+  "uuid": "BEF6C611-50DA-4971-A040-87FB979F3FC1",
+  "time": "2015-08-04T10:30:15-07:00",
+  "score": 1.9885571049144146,
+  "threshold": 1.9633047094592952,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.46547810181354127,
+   "gyro": 0.43898920223748295,
+   "time": 0.09553269594897577
+  }
+ },
+ {
+  "uuid": "C48CE857-A0DD-4DDB-BEA5-3A25449B2153",
+  "time": "2015-10-05T09:49:49-07:00",
+  "score": 1.8639239243999555,
+  "threshold": 1.832132059058325,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: BATHING_-_SHOWER",
+   "context: DRESSING"
+  ],
+  "explanation": {
+   "acc": 0.4210231351235305,
+   "gyro": 0.5347493802741672,
+   "time": 0.04422748460230228
+  }
+ },
+ {
+  "uuid": "C48CE857-A0DD-4DDB-BEA5-3A25449B2153",
+  "time": "2015-10-05T09:50:49-07:00",
+  "score": 2.1247447951621425,
+  "threshold": 1.832132059058325,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: standing",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: BATHING_-_SHOWER",
+   "context: DRESSING"
+  ],
+  "explanation": {
+   "acc": 0.4815266760131835,
+   "gyro": 0.48623088657649116,
+   "time": 0.03224243741032552
+  }
+ },
+ {
+  "uuid": "C48CE857-A0DD-4DDB-BEA5-3A25449B2153",
+  "time": "2015-10-05T09:56:49-07:00",
+  "score": 1.9483612603597127,
+  "threshold": 1.832132059058325,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: IN_A_CAR"
+  ],
+  "explanation": {
+   "acc": 0.4427864230954943,
+   "gyro": 0.5282773034551423,
+   "time": 0.028936273449363312
+  }
+ },
+ {
+  "uuid": "C48CE857-A0DD-4DDB-BEA5-3A25449B2153",
+  "time": "2015-10-05T09:58:49-07:00",
+  "score": 2.0660702061635705,
+  "threshold": 1.832132059058325,
+  "categories": [
+   "phone: in hand",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: IN_A_CAR"
+  ],
+  "explanation": {
+   "acc": 0.5051174044962655,
+   "gyro": 0.45956609147682836,
+   "time": 0.03531650402690608
+  }
+ },
+ {
+  "uuid": "C48CE857-A0DD-4DDB-BEA5-3A25449B2153",
+  "time": "2015-10-05T10:39:15-07:00",
+  "score": 1.8750138751312142,
+  "threshold": 1.832132059058325,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: LOC_main_workplace",
+   "context: SURFING_THE_INTERNET",
+   "context: TALKING",
+   "context: COMPUTER_WORK"
+  ],
+  "explanation": {
+   "acc": 0.4018218123745291,
+   "gyro": 0.5762860827363844,
+   "time": 0.021892104889086487
+  }
+ },
+ {
+  "uuid": "CA820D43-E5E2-42EF-9798-BE56F776370B",
+  "time": "2015-08-29T11:31:09-07:00",
+  "score": 1.884639955743923,
+  "threshold": 1.6722753141331526,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5380517512870805,
+   "gyro": 0.2727976345057796,
+   "time": 0.18915061420713994
+  }
+ },
+ {
+  "uuid": "CA820D43-E5E2-42EF-9798-BE56F776370B",
+  "time": "2015-08-29T13:11:09-07:00",
+  "score": 1.799531201350808,
+  "threshold": 1.6722753141331526,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.7287154977676746,
+   "gyro": 0.17896466539176922,
+   "time": 0.09231983684055613
+  }
+ },
+ {
+  "uuid": "CA820D43-E5E2-42EF-9798-BE56F776370B",
+  "time": "2015-08-30T15:53:45-07:00",
+  "score": 1.6742877792319573,
+  "threshold": 1.6722753141331526,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside",
+   "context: TALKING"
+  ],
+  "explanation": {
+   "acc": 0.5868414284776504,
+   "gyro": 0.26330514028909874,
+   "time": 0.1498534312332507
+  }
+ },
+ {
+  "uuid": "CA820D43-E5E2-42EF-9798-BE56F776370B",
+  "time": "2015-08-31T07:18:00-07:00",
+  "score": 1.6729502737921205,
+  "threshold": 1.6722753141331526,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5153862153430312,
+   "gyro": 0.3877123402233619,
+   "time": 0.09690144443360693
+  }
+ },
+ {
+  "uuid": "CA820D43-E5E2-42EF-9798-BE56F776370B",
+  "time": "2015-08-31T08:42:00-07:00",
+  "score": 1.7327302219311271,
+  "threshold": 1.6722753141331526,
+  "categories": [
+   "phone: in pocket",
+   "transition: no",
+   "activity: standing",
+   "explanation: acc dominates",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.6305408306966874,
+   "gyro": 0.35790095303412495,
+   "time": 0.011558216269187568
+  }
+ },
+ {
+  "uuid": "CDA3BBF7-6631-45E8-85BA-EEB416B32A3C",
+  "time": "2015-09-11T01:01:54-07:00",
+  "score": 1.5406086187433474,
+  "threshold": 1.466189864116713,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.5419726751853737,
+   "gyro": 0.2551950404352586,
+   "time": 0.20283228437936757
+  }
+ },
+ {
+  "uuid": "CDA3BBF7-6631-45E8-85BA-EEB416B32A3C",
+  "time": "2015-09-11T01:04:54-07:00",
+  "score": 1.5148721074974758,
+  "threshold": 1.466189864116713,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.4655469224234091,
+   "gyro": 0.3973315341995723,
+   "time": 0.1371215433770186
+  }
+ },
+ {
+  "uuid": "CDA3BBF7-6631-45E8-85BA-EEB416B32A3C",
+  "time": "2015-09-11T07:10:54-07:00",
+  "score": 1.6526562916071363,
+  "threshold": 1.466189864116713,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.48066884262843573,
+   "gyro": 0.3548018819502757,
+   "time": 0.16452927542128853
+  }
+ },
+ {
+  "uuid": "CDA3BBF7-6631-45E8-85BA-EEB416B32A3C",
+  "time": "2015-09-11T07:19:54-07:00",
+  "score": 1.7073694538840534,
+  "threshold": 1.466189864116713,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.4480006205450451,
+   "gyro": 0.3404624492571067,
+   "time": 0.21153693019784822
+  }
+ },
+ {
+  "uuid": "CDA3BBF7-6631-45E8-85BA-EEB416B32A3C",
+  "time": "2015-09-11T09:01:54-07:00",
+  "score": 1.6915901415246082,
+  "threshold": 1.466189864116713,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: lying down",
+   "explanation: acc dominates",
+   "context: SLEEPING",
+   "context: OR_indoors",
+   "context: LOC_home"
+  ],
+  "explanation": {
+   "acc": 0.46875105896782754,
+   "gyro": 0.28965020134299085,
+   "time": 0.24159873968918172
+  }
+ },
+ {
+  "uuid": "CF722AA9-2533-4E51-9FEB-9EAC84EE9AAC",
+  "time": "2015-11-20T12:40:03-08:00",
+  "score": 1.8398094891665024,
+  "threshold": 1.7471617227863645,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: sitting",
+   "explanation: gyro dominates",
+   "context: OR_indoors",
+   "context: TALKING",
+   "context: AT_SCHOOL",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.2979892698550451,
+   "gyro": 0.5977465081569445,
+   "time": 0.10426422198801027
+  }
+ },
+ {
+  "uuid": "CF722AA9-2533-4E51-9FEB-9EAC84EE9AAC",
+  "time": "2015-11-21T10:09:05-08:00",
+  "score": 1.7970783803050114,
+  "threshold": 1.7471617227863645,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: TALKING",
+   "context: WITH_FRIENDS"
+  ],
+  "explanation": {
+   "acc": 0.5015359165996418,
+   "gyro": 0.34599278719808796,
+   "time": 0.15247129620227035
+  }
+ },
+ {
+  "uuid": "CF722AA9-2533-4E51-9FEB-9EAC84EE9AAC",
+  "time": "2015-11-21T10:20:05-08:00",
+  "score": 1.832125529410471,
+  "threshold": 1.7471617227863645,
+  "categories": [
+   "phone: on table",
+   "transition: no",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: OR_indoors",
+   "context: WATCHING_TV",
+   "context: SURFING_THE_INTERNET"
+  ],
+  "explanation": {
+   "acc": 0.5252246027060908,
+   "gyro": 0.3047530329805072,
+   "time": 0.17002236431340198
+  }
+ },
+ {
+  "uuid": "CF722AA9-2533-4E51-9FEB-9EAC84EE9AAC",
+  "time": "2015-11-21T10:46:05-08:00",
+  "score": 1.7584252793001973,
+  "threshold": 1.7471617227863645,
+  "categories": [
+   "phone: on table",
+   "transition: yes",
+   "activity: sitting",
+   "explanation: acc dominates",
+   "context: LOC_main_workplace",
+   "context: OR_indoors",
+   "context: WATCHING_TV",
+   "context: SURFING_THE_INTERNET",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.5854204673583635,
+   "gyro": 0.3621009422079293,
+   "time": 0.0524785904337071
+  }
+ },
+ {
+  "uuid": "CF722AA9-2533-4E51-9FEB-9EAC84EE9AAC",
+  "time": "2015-11-22T15:23:35-08:00",
+  "score": 2.0691194212796846,
+  "threshold": 1.7471617227863645,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: AT_SCHOOL"
+  ],
+  "explanation": {
+   "acc": 0.7085053493993877,
+   "gyro": 0.22133388588804898,
+   "time": 0.07016076471256333
+  }
+ },
+ {
+  "uuid": "D7D20E2E-FC78-405D-B346-DBD3FD8FC92B",
+  "time": "2015-08-16T13:16:47-07:00",
+  "score": 1.8410894070812263,
+  "threshold": 1.8348128073248804,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5066175261327343,
+   "gyro": 0.46846362121672097,
+   "time": 0.024918852650544814
+  }
+ },
+ {
+  "uuid": "D7D20E2E-FC78-405D-B346-DBD3FD8FC92B",
+  "time": "2015-08-16T13:17:47-07:00",
+  "score": 2.13209726656519,
+  "threshold": 1.8348128073248804,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5505277412172259,
+   "gyro": 0.38219486505293865,
+   "time": 0.06727739372983556
+  }
+ },
+ {
+  "uuid": "D7D20E2E-FC78-405D-B346-DBD3FD8FC92B",
+  "time": "2015-08-17T08:16:54-07:00",
+  "score": 1.9878895023211345,
+  "threshold": 1.8348128073248804,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.531622224969932,
+   "gyro": 0.3766334337941051,
+   "time": 0.09174434123596298
+  }
+ },
+ {
+  "uuid": "D7D20E2E-FC78-405D-B346-DBD3FD8FC92B",
+  "time": "2015-08-17T08:18:54-07:00",
+  "score": 2.1567109273615417,
+  "threshold": 1.8348128073248804,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.5262395932643478,
+   "gyro": 0.3131984656907856,
+   "time": 0.16056194104486662
+  }
+ },
+ {
+  "uuid": "D7D20E2E-FC78-405D-B346-DBD3FD8FC92B",
+  "time": "2015-08-17T08:21:54-07:00",
+  "score": 1.8643849269599557,
+  "threshold": 1.8348128073248804,
+  "categories": [
+   "phone: not reported",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates"
+  ],
+  "explanation": {
+   "acc": 0.6209071690362963,
+   "gyro": 0.27999217035509727,
+   "time": 0.09910066060860646
+  }
+ },
+ {
+  "uuid": "ECECC2AB-D32F-4F90-B74C-E12A1C69BBE2",
+  "time": "2015-11-16T11:31:16-08:00",
+  "score": 2.1412615798646395,
+  "threshold": 2.064334347076465,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.3923119480516113,
+   "gyro": 0.34066866874213125,
+   "time": 0.26701938320625757
+  }
+ },
+ {
+  "uuid": "ECECC2AB-D32F-4F90-B74C-E12A1C69BBE2",
+  "time": "2015-11-16T11:32:16-08:00",
+  "score": 2.1104351569831215,
+  "threshold": 2.064334347076465,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.4082815079329878,
+   "gyro": 0.3188423379797926,
+   "time": 0.2728761540872196
+  }
+ },
+ {
+  "uuid": "ECECC2AB-D32F-4F90-B74C-E12A1C69BBE2",
+  "time": "2015-11-16T11:41:16-08:00",
+  "score": 2.0908994768150713,
+  "threshold": 2.064334347076465,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.45466728104579385,
+   "gyro": 0.3164591276532086,
+   "time": 0.2288735913009976
+  }
+ },
+ {
+  "uuid": "ECECC2AB-D32F-4F90-B74C-E12A1C69BBE2",
+  "time": "2015-11-16T11:49:16-08:00",
+  "score": 2.112963085709427,
+  "threshold": 2.064334347076465,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.5783439593875364,
+   "gyro": 0.29525275664359996,
+   "time": 0.1264032839688638
+  }
+ },
+ {
+  "uuid": "ECECC2AB-D32F-4F90-B74C-E12A1C69BBE2",
+  "time": "2015-11-16T11:53:16-08:00",
+  "score": 2.0850117883969963,
+  "threshold": 2.064334347076465,
+  "categories": [
+   "phone: in bag",
+   "transition: no",
+   "activity: walking",
+   "explanation: acc dominates",
+   "context: OR_outside"
+  ],
+  "explanation": {
+   "acc": 0.5691219662981982,
+   "gyro": 0.30490498205020733,
+   "time": 0.1259730516515945
+  }
+ }
+]

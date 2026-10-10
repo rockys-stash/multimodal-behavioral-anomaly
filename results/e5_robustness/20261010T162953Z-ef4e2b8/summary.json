@@ -1,0 +1,329 @@
+{
+ "title": "E5 Robustness",
+ "question": "Does the ablation's answer survive the choices made before running it?",
+ "findings": [
+  "20 of 24 variant comparisons reach the same verdict (direction and significance) as the default.",
+  "Changed under 'concatenation (no block weighting)' (knn): C vs B is + n.s. (default + sig.).",
+  "Changed under 'concatenation (no block weighting)' (knn): C vs A is + n.s. (default + sig.).",
+  "Changed under 'kNN k = 5' (knn): C vs B is + n.s. (default + sig.).",
+  "Changed under 'kNN k = 5' (knn): C vs A is + n.s. (default + sig.)."
+ ],
+ "tables": [
+  {
+   "id": "robustness",
+   "caption": "AUROC differences per variant (Wilcoxon, Holm within variant and detector)",
+   "columns": [
+    {
+     "key": "variant",
+     "label": "Variant",
+     "align": "l"
+    },
+    {
+     "key": "detector",
+     "label": "Detector",
+     "align": "l"
+    },
+    {
+     "key": "comparison",
+     "label": "Comparison",
+     "align": "l"
+    },
+    {
+     "key": "n",
+     "label": "People",
+     "align": "r"
+    },
+    {
+     "key": "diff",
+     "label": "Mean difference",
+     "align": "r"
+    },
+    {
+     "key": "p",
+     "label": "p (Holm)",
+     "align": "r"
+    },
+    {
+     "key": "same",
+     "label": "Same verdict as default",
+     "align": "l"
+    }
+   ],
+   "rows": [
+    {
+     "variant": "default",
+     "detector": "knn",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.009",
+     "p": "0.534",
+     "same": "yes"
+    },
+    {
+     "variant": "default",
+     "detector": "knn",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.029",
+     "p": "0.0093",
+     "same": "yes"
+    },
+    {
+     "variant": "default",
+     "detector": "knn",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.038",
+     "p": "0.0117",
+     "same": "yes"
+    },
+    {
+     "variant": "default",
+     "detector": "gauss",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.008",
+     "p": "0.636",
+     "same": "yes"
+    },
+    {
+     "variant": "default",
+     "detector": "gauss",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.008",
+     "p": "0.00585",
+     "same": "yes"
+    },
+    {
+     "variant": "default",
+     "detector": "gauss",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.016",
+     "p": "0.137",
+     "same": "yes"
+    },
+    {
+     "variant": "concatenation (no block weighting)",
+     "detector": "knn",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.008",
+     "p": "0.567",
+     "same": "yes"
+    },
+    {
+     "variant": "concatenation (no block weighting)",
+     "detector": "knn",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.006",
+     "p": "0.0798",
+     "same": "no"
+    },
+    {
+     "variant": "concatenation (no block weighting)",
+     "detector": "knn",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.014",
+     "p": "0.202",
+     "same": "no"
+    },
+    {
+     "variant": "concatenation (no block weighting)",
+     "detector": "gauss",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.008",
+     "p": "0.615",
+     "same": "yes"
+    },
+    {
+     "variant": "concatenation (no block weighting)",
+     "detector": "gauss",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.007",
+     "p": "0.00458",
+     "same": "yes"
+    },
+    {
+     "variant": "concatenation (no block weighting)",
+     "detector": "gauss",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.016",
+     "p": "0.16",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 0.5%",
+     "detector": "knn",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.009",
+     "p": "0.56",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 0.5%",
+     "detector": "knn",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.029",
+     "p": "0.00898",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 0.5%",
+     "detector": "knn",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.038",
+     "p": "0.011",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 0.5%",
+     "detector": "gauss",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.008",
+     "p": "0.643",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 0.5%",
+     "detector": "gauss",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.008",
+     "p": "0.00564",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 0.5%",
+     "detector": "gauss",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.016",
+     "p": "0.134",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 2%",
+     "detector": "knn",
+     "comparison": "B vs A",
+     "n": 50,
+     "diff": "+0.008",
+     "p": "0.592",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 2%",
+     "detector": "knn",
+     "comparison": "C vs B",
+     "n": 50,
+     "diff": "+0.039",
+     "p": "0.00683",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 2%",
+     "detector": "knn",
+     "comparison": "C vs A",
+     "n": 50,
+     "diff": "+0.047",
+     "p": "0.00863",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 2%",
+     "detector": "gauss",
+     "comparison": "B vs A",
+     "n": 50,
+     "diff": "+0.007",
+     "p": "0.774",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 2%",
+     "detector": "gauss",
+     "comparison": "C vs B",
+     "n": 50,
+     "diff": "+0.012",
+     "p": "0.00371",
+     "same": "yes"
+    },
+    {
+     "variant": "novel = under 2%",
+     "detector": "gauss",
+     "comparison": "C vs A",
+     "n": 50,
+     "diff": "+0.019",
+     "p": "0.101",
+     "same": "yes"
+    },
+    {
+     "variant": "kNN k = 5",
+     "detector": "knn",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.008",
+     "p": "0.581",
+     "same": "yes"
+    },
+    {
+     "variant": "kNN k = 5",
+     "detector": "knn",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.024",
+     "p": "0.0675",
+     "same": "no"
+    },
+    {
+     "variant": "kNN k = 5",
+     "detector": "knn",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.032",
+     "p": "0.0602",
+     "same": "no"
+    },
+    {
+     "variant": "kNN k = 20",
+     "detector": "knn",
+     "comparison": "B vs A",
+     "n": 49,
+     "diff": "+0.016",
+     "p": "0.43",
+     "same": "yes"
+    },
+    {
+     "variant": "kNN k = 20",
+     "detector": "knn",
+     "comparison": "C vs B",
+     "n": 49,
+     "diff": "+0.024",
+     "p": "0.00959",
+     "same": "yes"
+    },
+    {
+     "variant": "kNN k = 20",
+     "detector": "knn",
+     "comparison": "C vs A",
+     "n": 49,
+     "diff": "+0.039",
+     "p": "0.00652",
+     "same": "yes"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Holm correction here runs over the three AUROC comparisons of one variant and detector, a smaller family than E1's (five comparisons on three metrics), so 'significant' here is less conservative than in E1. E1 is the primary analysis; this experiment only asks whether verdicts move when a choice changes."
+ ]
+}

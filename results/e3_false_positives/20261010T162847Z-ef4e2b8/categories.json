@@ -1,0 +1,394 @@
+[
+ {
+  "category": "activity: bicycling",
+  "fp": 19,
+  "fp_share": 0.011635027556644213,
+  "tn_share": 0.010476541285110975,
+  "lift": 1.110579077579702
+ },
+ {
+  "category": "activity: lying down",
+  "fp": 309,
+  "fp_share": 0.18922229026331905,
+  "tn_share": 0.38328893152984916,
+  "lift": 0.49368054931318334
+ },
+ {
+  "category": "activity: sitting",
+  "fp": 675,
+  "fp_share": 0.41334966319657074,
+  "tn_share": 0.4269169158021878,
+  "lift": 0.9682203911266344
+ },
+ {
+  "category": "activity: standing",
+  "fp": 234,
+  "fp_share": 0.14329454990814453,
+  "tn_share": 0.10908281007735336,
+  "lift": 1.3136308993738863
+ },
+ {
+  "category": "activity: walking",
+  "fp": 396,
+  "fp_share": 0.2424984690753215,
+  "tn_share": 0.07023480130549868,
+  "lift": 3.452682495968509
+ },
+ {
+  "category": "context: AT_A_BAR",
+  "fp": 0,
+  "fp_share": 0.0,
+  "tn_share": 0.0007880963190762141,
+  "lift": 0.0
+ },
+ {
+  "category": "context: AT_A_PARTY",
+  "fp": 3,
+  "fp_share": 0.001837109614206981,
+  "tn_share": 0.0031609515406426413,
+  "lift": 0.581188794129215
+ },
+ {
+  "category": "context: AT_SCHOOL",
+  "fp": 198,
+  "fp_share": 0.12124923453766075,
+  "tn_share": 0.12647232668305677,
+  "lift": 0.958701699554518
+ },
+ {
+  "category": "context: AT_THE_GYM",
+  "fp": 3,
+  "fp_share": 0.001837109614206981,
+  "tn_share": 0.004779975500483994,
+  "lift": 0.38433452514996475
+ },
+ {
+  "category": "context: BATHING_-_SHOWER",
+  "fp": 5,
+  "fp_share": 0.003061849357011635,
+  "tn_share": 0.0047371441787950695,
+  "lift": 0.646349201427608
+ },
+ {
+  "category": "context: CLEANING",
+  "fp": 35,
+  "fp_share": 0.021432945499081445,
+  "tn_share": 0.016858408216760754,
+  "lift": 1.2713504871576577
+ },
+ {
+  "category": "context: COMPUTER_WORK",
+  "fp": 98,
+  "fp_share": 0.06001224739742805,
+  "tn_share": 0.11797459245997413,
+  "lift": 0.508687897504615
+ },
+ {
+  "category": "context: COOKING",
+  "fp": 7,
+  "fp_share": 0.004286589099816289,
+  "tn_share": 0.013628926561415832,
+  "lift": 0.31452140273114654
+ },
+ {
+  "category": "context: DOING_LAUNDRY",
+  "fp": 0,
+  "fp_share": 0.0,
+  "tn_share": 0.002407120278917567,
+  "lift": 0.0
+ },
+ {
+  "category": "context: DRESSING",
+  "fp": 10,
+  "fp_share": 0.00612369871402327,
+  "tn_share": 0.006184842851880723,
+  "lift": 0.9901138736550338
+ },
+ {
+  "category": "context: DRINKING__ALCOHOL_",
+  "fp": 3,
+  "fp_share": 0.001837109614206981,
+  "tn_share": 0.004043276767434489,
+  "lift": 0.4543615784611872
+ },
+ {
+  "category": "context: DRIVE_-_I_M_A_PASSENGER",
+  "fp": 36,
+  "fp_share": 0.02204531537048377,
+  "tn_share": 0.009645613644345838,
+  "lift": 2.28552751368043
+ },
+ {
+  "category": "context: DRIVE_-_I_M_THE_DRIVER",
+  "fp": 99,
+  "fp_share": 0.06062461726883037,
+  "tn_share": 0.02587868456444829,
+  "lift": 2.3426467878554953
+ },
+ {
+  "category": "context: EATING",
+  "fp": 120,
+  "fp_share": 0.07348438456827924,
+  "tn_share": 0.04917035729888553,
+  "lift": 1.4944854706179815
+ },
+ {
+  "category": "context: ELEVATOR",
+  "fp": 1,
+  "fp_share": 0.000612369871402327,
+  "tn_share": 0.00041974695255146184,
+  "lift": 1.4589024832223152
+ },
+ {
+  "category": "context: FIX_restaurant",
+  "fp": 8,
+  "fp_share": 0.004898958971218616,
+  "tn_share": 0.005388180268466725,
+  "lift": 0.9092047272228101
+ },
+ {
+  "category": "context: GROOMING",
+  "fp": 40,
+  "fp_share": 0.02449479485609308,
+  "tn_share": 0.010476541285110975,
+  "lift": 2.3380612159572673
+ },
+ {
+  "category": "context: IN_A_CAR",
+  "fp": 56,
+  "fp_share": 0.034292712798530314,
+  "tn_share": 0.019608179069189716,
+  "lift": 1.7488983896732344
+ },
+ {
+  "category": "context: IN_A_MEETING",
+  "fp": 18,
+  "fp_share": 0.011022657685241886,
+  "tn_share": 0.012189794152667964,
+  "lift": 0.9042529797625313
+ },
+ {
+  "category": "context: IN_CLASS",
+  "fp": 18,
+  "fp_share": 0.011022657685241886,
+  "tn_share": 0.013423336217308993,
+  "lift": 0.8211563434601673
+ },
+ {
+  "category": "context: LAB_WORK",
+  "fp": 8,
+  "fp_share": 0.004898958971218616,
+  "tn_share": 0.002492782922295416,
+  "lift": 1.96525695334415
+ },
+ {
+  "category": "context: LOC_beach",
+  "fp": 5,
+  "fp_share": 0.003061849357011635,
+  "tn_share": 0.0017132528675569871,
+  "lift": 1.787155541947336
+ },
+ {
+  "category": "context: LOC_home",
+  "fp": 504,
+  "fp_share": 0.3086344151867728,
+  "tn_share": 0.4835227905462707,
+  "lift": 0.6383037598663885
+ },
+ {
+  "category": "context: LOC_main_workplace",
+  "fp": 79,
+  "fp_share": 0.04837721984078383,
+  "tn_share": 0.08693901676417931,
+  "lift": 0.5564500455762718
+ },
+ {
+  "category": "context: ON_A_BUS",
+  "fp": 26,
+  "fp_share": 0.015921616656460504,
+  "tn_share": 0.006321903081285283,
+  "lift": 2.5184847745599317
+ },
+ {
+  "category": "context: OR_exercise",
+  "fp": 24,
+  "fp_share": 0.014696876913655848,
+  "tn_share": 0.01612170948371125,
+  "lift": 0.9116202551909897
+ },
+ {
+  "category": "context: OR_indoors",
+  "fp": 717,
+  "fp_share": 0.43906919779546844,
+  "tn_share": 0.6493913669188004,
+  "lift": 0.6761241682018995
+ },
+ {
+  "category": "context: OR_outside",
+  "fp": 235,
+  "fp_share": 0.14390691977954684,
+  "tn_share": 0.033768214019548215,
+  "lift": 4.261608851929213
+ },
+ {
+  "category": "context: SHOPPING",
+  "fp": 18,
+  "fp_share": 0.011022657685241886,
+  "tn_share": 0.006801613884201239,
+  "lift": 1.62059444609834
+ },
+ {
+  "category": "context: SINGING",
+  "fp": 0,
+  "fp_share": 0.0,
+  "tn_share": 0.000265554194471333,
+  "lift": 0.0
+ },
+ {
+  "category": "context: SLEEPING",
+  "fp": 216,
+  "fp_share": 0.13227189222290264,
+  "tn_share": 0.319564491121067,
+  "lift": 0.4139129843834603
+ },
+ {
+  "category": "context: STAIRS_-_GOING_DOWN",
+  "fp": 3,
+  "fp_share": 0.001837109614206981,
+  "tn_share": 0.0008737589624540634,
+  "lift": 2.1025359317027488
+ },
+ {
+  "category": "context: STAIRS_-_GOING_UP",
+  "fp": 3,
+  "fp_share": 0.001837109614206981,
+  "tn_share": 0.0008651926981162785,
+  "lift": 2.12335311914535
+ },
+ {
+  "category": "context: STROLLING",
+  "fp": 1,
+  "fp_share": 0.000612369871402327,
+  "tn_share": 0.0012763733863299554,
+  "lift": 0.47977329985163386
+ },
+ {
+  "category": "context: SURFING_THE_INTERNET",
+  "fp": 68,
+  "fp_share": 0.041641151255358236,
+  "tn_share": 0.057145549397363306,
+  "lift": 0.7286858153345457
+ },
+ {
+  "category": "context: TALKING",
+  "fp": 338,
+  "fp_share": 0.20698101653398654,
+  "tn_share": 0.11148993035627093,
+  "lift": 1.8564996486460228
+ },
+ {
+  "category": "context: TOILET",
+  "fp": 8,
+  "fp_share": 0.004898958971218616,
+  "tn_share": 0.0068787102632413034,
+  "lift": 0.7121914986589634
+ },
+ {
+  "category": "context: WASHING_DISHES",
+  "fp": 0,
+  "fp_share": 0.0,
+  "tn_share": 0.0023471564285530724,
+  "lift": 0.0
+ },
+ {
+  "category": "context: WATCHING_TV",
+  "fp": 69,
+  "fp_share": 0.04225352112676056,
+  "tn_share": 0.03999588819311786,
+  "lift": 1.0564466257816765
+ },
+ {
+  "category": "context: WITH_CO-WORKERS",
+  "fp": 70,
+  "fp_share": 0.04286589099816289,
+  "tn_share": 0.014674010810625594,
+  "lift": 2.9212116272344084
+ },
+ {
+  "category": "context: WITH_FRIENDS",
+  "fp": 251,
+  "fp_share": 0.15370483772198407,
+  "tn_share": 0.07758465610731816,
+  "lift": 1.9811241736945187
+ },
+ {
+  "category": "explanation: acc dominates",
+  "fp": 876,
+  "fp_share": 0.5364360073484384,
+  "tn_share": 0.5080994029313757,
+  "lift": 1.0557698045964639
+ },
+ {
+  "category": "explanation: gyro dominates",
+  "fp": 692,
+  "fp_share": 0.4237599510104103,
+  "tn_share": 0.4432356493656681,
+  "lift": 0.9560601716420368
+ },
+ {
+  "category": "explanation: time dominates",
+  "fp": 65,
+  "fp_share": 0.039804041641151255,
+  "tn_share": 0.04866494770295622,
+  "lift": 0.8179201564976366
+ },
+ {
+  "category": "phone: in bag",
+  "fp": 98,
+  "fp_share": 0.06001224739742805,
+  "tn_share": 0.04347379151425855,
+  "lift": 1.3804235910213907
+ },
+ {
+  "category": "phone: in hand",
+  "fp": 145,
+  "fp_share": 0.08879363135333741,
+  "tn_share": 0.04201752657683511,
+  "lift": 2.113252220855158
+ },
+ {
+  "category": "phone: in pocket",
+  "fp": 169,
+  "fp_share": 0.10349050826699327,
+  "tn_share": 0.06851298217360391,
+  "lift": 1.5105240639614896
+ },
+ {
+  "category": "phone: not reported",
+  "fp": 862,
+  "fp_share": 0.5278628291488059,
+  "tn_share": 0.45944302149275723,
+  "lift": 1.1489190268550575
+ },
+ {
+  "category": "phone: on table",
+  "fp": 359,
+  "fp_share": 0.2198407838334354,
+  "tn_share": 0.3865526782425452,
+  "lift": 0.5687214090274515
+ },
+ {
+  "category": "transition: no",
+  "fp": 1517,
+  "fp_share": 0.92896509491733,
+  "tn_share": 0.9723138336602791,
+  "lift": 0.9554169268786781
+ },
+ {
+  "category": "transition: yes",
+  "fp": 116,
+  "fp_share": 0.07103490508266994,
+  "tn_share": 0.027686166339720913,
+  "lift": 2.5657183523006313
+ }
+]

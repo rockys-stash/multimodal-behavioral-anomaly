@@ -1,0 +1,869 @@
+{
+ "title": "E1 Modality ablation",
+ "question": "Which sensor information actually improves anomaly detection?",
+ "findings": [
+  "k-nearest neighbours: B vs A AUROC +0.009 (better for 27 of 49 people, Holm p = 1, not significant).",
+  "k-nearest neighbours: C vs B AUROC +0.029 (better for 31 of 49 people, Holm p = 0.0465, significant).",
+  "k-nearest neighbours: C vs A AUROC +0.038 (better for 32 of 49 people, Holm p = 0.0822, not significant).",
+  "k-nearest neighbours: A+time vs A AUROC +0.020 (better for 33 of 49 people, Holm p = 0.516, not significant).",
+  "k-nearest neighbours: C+location vs C AUROC +0.005 (better for 27 of 46 people, Holm p = 1, not significant).",
+  "Isolation forest: B vs A AUROC +0.013 (better for 23 of 49 people, Holm p = 1, not significant).",
+  "Isolation forest: C vs B AUROC +0.004 (better for 34 of 49 people, Holm p = 0.0503, not significant).",
+  "Isolation forest: C vs A AUROC +0.018 (better for 31 of 49 people, Holm p = 1, not significant).",
+  "Isolation forest: A+time vs A AUROC +0.004 (better for 28 of 49 people, Holm p = 0.409, not significant).",
+  "Isolation forest: C+location vs C AUROC -0.006 (better for 21 of 46 people, Holm p = 1, not significant).",
+  "Gaussian (Mahalanobis): B vs A AUROC +0.008 (better for 23 of 49 people, Holm p = 1, not significant).",
+  "Gaussian (Mahalanobis): C vs B AUROC +0.008 (better for 34 of 49 people, Holm p = 0.0292, significant).",
+  "Gaussian (Mahalanobis): C vs A AUROC +0.016 (better for 26 of 49 people, Holm p = 0.821, not significant).",
+  "Gaussian (Mahalanobis): A+time vs A AUROC +0.009 (better for 32 of 49 people, Holm p = 0.322, not significant).",
+  "Gaussian (Mahalanobis): C+location vs C AUROC +0.004 (better for 22 of 46 people, Holm p = 1, not significant)."
+ ],
+ "tables": [
+  {
+   "id": "ablation_gauss",
+   "caption": "Gaussian (Mahalanobis): mean over people [95% bootstrap interval]",
+   "columns": [
+    {
+     "key": "model",
+     "label": "Model",
+     "align": "l"
+    },
+    {
+     "key": "set",
+     "label": "Minutes compared",
+     "align": "l"
+    },
+    {
+     "key": "people",
+     "label": "People scored / with anomalies",
+     "align": "r"
+    },
+    {
+     "key": "auroc",
+     "label": "AUROC",
+     "align": "r"
+    },
+    {
+     "key": "f1",
+     "label": "F1",
+     "align": "r"
+    },
+    {
+     "key": "recall",
+     "label": "Recall",
+     "align": "r"
+    },
+    {
+     "key": "fpr",
+     "label": "False-positive rate",
+     "align": "r"
+    },
+    {
+     "key": "event_recall",
+     "label": "Events detected",
+     "align": "r"
+    },
+    {
+     "key": "latency_min",
+     "label": "Latency (min, median)",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "model": "A · accelerometer",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.619 [0.558, 0.680]",
+     "f1": "0.071 [0.042, 0.105]",
+     "precision": "0.098 [0.057, 0.143]",
+     "recall": "0.080 [0.050, 0.118]",
+     "fpr": "0.035 [0.028, 0.043]",
+     "event_recall": "0.308 [0.226, 0.397]",
+     "latency_min": "10.7 [5.0, 17.4]",
+     "false_alarms_per_hour": "2.114 [1.707, 2.585]"
+    },
+    {
+     "model": "accelerometer + time",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.627 [0.565, 0.690]",
+     "f1": "0.071 [0.042, 0.105]",
+     "precision": "0.104 [0.059, 0.157]",
+     "recall": "0.080 [0.050, 0.117]",
+     "fpr": "0.035 [0.028, 0.043]",
+     "event_recall": "0.308 [0.224, 0.396]",
+     "latency_min": "9.7 [4.5, 15.8]",
+     "false_alarms_per_hour": "2.087 [1.686, 2.564]"
+    },
+    {
+     "model": "B · accelerometer + gyroscope",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.627 [0.567, 0.688]",
+     "f1": "0.076 [0.044, 0.117]",
+     "precision": "0.113 [0.066, 0.166]",
+     "recall": "0.105 [0.062, 0.158]",
+     "fpr": "0.034 [0.028, 0.040]",
+     "event_recall": "0.366 [0.278, 0.455]",
+     "latency_min": "11.5 [6.5, 17.7]",
+     "false_alarms_per_hour": "2.045 [1.681, 2.428]"
+    },
+    {
+     "model": "C · accelerometer + gyroscope + time",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.635 [0.574, 0.697]",
+     "f1": "0.077 [0.045, 0.117]",
+     "precision": "0.114 [0.063, 0.173]",
+     "recall": "0.104 [0.062, 0.154]",
+     "fpr": "0.034 [0.028, 0.040]",
+     "event_recall": "0.374 [0.287, 0.464]",
+     "latency_min": "10.8 [6.4, 16.5]",
+     "false_alarms_per_hour": "2.024 [1.662, 2.403]"
+    },
+    {
+     "model": "C · accelerometer + gyroscope + time",
+     "set": "acc + gyro + location",
+     "people": "53 / 46",
+     "auroc": "0.638 [0.576, 0.700]",
+     "f1": "0.080 [0.047, 0.121]",
+     "precision": "0.124 [0.072, 0.182]",
+     "recall": "0.109 [0.064, 0.161]",
+     "fpr": "0.032 [0.026, 0.039]",
+     "event_recall": "0.387 [0.296, 0.485]",
+     "latency_min": "10.3 [5.6, 16.4]",
+     "false_alarms_per_hour": "1.924 [1.548, 2.319]"
+    },
+    {
+     "model": "C + location",
+     "set": "acc + gyro + location",
+     "people": "53 / 46",
+     "auroc": "0.642 [0.579, 0.704]",
+     "f1": "0.103 [0.059, 0.152]",
+     "precision": "0.165 [0.095, 0.242]",
+     "recall": "0.106 [0.062, 0.159]",
+     "fpr": "0.044 [0.028, 0.066]",
+     "event_recall": "0.344 [0.251, 0.439]",
+     "latency_min": "11.6 [4.8, 20.4]",
+     "false_alarms_per_hour": "2.665 [1.654, 3.975]"
+    }
+   ]
+  },
+  {
+   "id": "ablation_iforest",
+   "caption": "Isolation forest: mean over people [95% bootstrap interval]",
+   "columns": [
+    {
+     "key": "model",
+     "label": "Model",
+     "align": "l"
+    },
+    {
+     "key": "set",
+     "label": "Minutes compared",
+     "align": "l"
+    },
+    {
+     "key": "people",
+     "label": "People scored / with anomalies",
+     "align": "r"
+    },
+    {
+     "key": "auroc",
+     "label": "AUROC",
+     "align": "r"
+    },
+    {
+     "key": "f1",
+     "label": "F1",
+     "align": "r"
+    },
+    {
+     "key": "recall",
+     "label": "Recall",
+     "align": "r"
+    },
+    {
+     "key": "fpr",
+     "label": "False-positive rate",
+     "align": "r"
+    },
+    {
+     "key": "event_recall",
+     "label": "Events detected",
+     "align": "r"
+    },
+    {
+     "key": "latency_min",
+     "label": "Latency (min, median)",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "model": "A · accelerometer",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.616 [0.552, 0.678]",
+     "f1": "0.071 [0.042, 0.103]",
+     "precision": "0.103 [0.059, 0.153]",
+     "recall": "0.076 [0.047, 0.109]",
+     "fpr": "0.035 [0.026, 0.047]",
+     "event_recall": "0.282 [0.204, 0.362]",
+     "latency_min": "9.8 [4.6, 16.3]",
+     "false_alarms_per_hour": "2.115 [1.549, 2.825]"
+    },
+    {
+     "model": "accelerometer + time",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.619 [0.555, 0.684]",
+     "f1": "0.081 [0.051, 0.118]",
+     "precision": "0.111 [0.066, 0.163]",
+     "recall": "0.084 [0.053, 0.121]",
+     "fpr": "0.033 [0.024, 0.044]",
+     "event_recall": "0.288 [0.209, 0.367]",
+     "latency_min": "8.4 [4.2, 14.0]",
+     "false_alarms_per_hour": "1.971 [1.444, 2.652]"
+    },
+    {
+     "model": "B · accelerometer + gyroscope",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.629 [0.567, 0.690]",
+     "f1": "0.072 [0.044, 0.107]",
+     "precision": "0.106 [0.059, 0.161]",
+     "recall": "0.073 [0.045, 0.107]",
+     "fpr": "0.036 [0.027, 0.047]",
+     "event_recall": "0.301 [0.221, 0.384]",
+     "latency_min": "9.5 [4.6, 15.4]",
+     "false_alarms_per_hour": "2.150 [1.626, 2.792]"
+    },
+    {
+     "model": "C · accelerometer + gyroscope + time",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.633 [0.572, 0.695]",
+     "f1": "0.066 [0.041, 0.100]",
+     "precision": "0.101 [0.057, 0.153]",
+     "recall": "0.068 [0.041, 0.101]",
+     "fpr": "0.035 [0.026, 0.046]",
+     "event_recall": "0.302 [0.221, 0.383]",
+     "latency_min": "9.1 [4.7, 14.6]",
+     "false_alarms_per_hour": "2.100 [1.565, 2.737]"
+    },
+    {
+     "model": "C · accelerometer + gyroscope + time",
+     "set": "acc + gyro + location",
+     "people": "53 / 46",
+     "auroc": "0.639 [0.575, 0.702]",
+     "f1": "0.068 [0.042, 0.103]",
+     "precision": "0.106 [0.062, 0.161]",
+     "recall": "0.070 [0.042, 0.105]",
+     "fpr": "0.034 [0.024, 0.045]",
+     "event_recall": "0.303 [0.215, 0.391]",
+     "latency_min": "10.3 [5.0, 16.8]",
+     "false_alarms_per_hour": "2.035 [1.462, 2.677]"
+    },
+    {
+     "model": "C + location",
+     "set": "acc + gyro + location",
+     "people": "53 / 46",
+     "auroc": "0.633 [0.570, 0.695]",
+     "f1": "0.072 [0.042, 0.103]",
+     "precision": "0.128 [0.075, 0.187]",
+     "recall": "0.081 [0.047, 0.125]",
+     "fpr": "0.031 [0.022, 0.041]",
+     "event_recall": "0.264 [0.179, 0.354]",
+     "latency_min": "9.2 [3.4, 16.6]",
+     "false_alarms_per_hour": "1.862 [1.330, 2.448]"
+    }
+   ]
+  },
+  {
+   "id": "ablation_knn",
+   "caption": "k-nearest neighbours: mean over people [95% bootstrap interval]",
+   "columns": [
+    {
+     "key": "model",
+     "label": "Model",
+     "align": "l"
+    },
+    {
+     "key": "set",
+     "label": "Minutes compared",
+     "align": "l"
+    },
+    {
+     "key": "people",
+     "label": "People scored / with anomalies",
+     "align": "r"
+    },
+    {
+     "key": "auroc",
+     "label": "AUROC",
+     "align": "r"
+    },
+    {
+     "key": "f1",
+     "label": "F1",
+     "align": "r"
+    },
+    {
+     "key": "recall",
+     "label": "Recall",
+     "align": "r"
+    },
+    {
+     "key": "fpr",
+     "label": "False-positive rate",
+     "align": "r"
+    },
+    {
+     "key": "event_recall",
+     "label": "Events detected",
+     "align": "r"
+    },
+    {
+     "key": "latency_min",
+     "label": "Latency (min, median)",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "model": "A · accelerometer",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.608 [0.543, 0.673]",
+     "f1": "0.053 [0.032, 0.079]",
+     "precision": "0.099 [0.056, 0.148]",
+     "recall": "0.056 [0.028, 0.095]",
+     "fpr": "0.019 [0.014, 0.025]",
+     "event_recall": "0.241 [0.159, 0.330]",
+     "latency_min": "13.4 [6.0, 22.2]",
+     "false_alarms_per_hour": "1.142 [0.862, 1.490]"
+    },
+    {
+     "model": "accelerometer + time",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.628 [0.564, 0.690]",
+     "f1": "0.058 [0.033, 0.087]",
+     "precision": "0.132 [0.069, 0.200]",
+     "recall": "0.059 [0.027, 0.102]",
+     "fpr": "0.017 [0.011, 0.025]",
+     "event_recall": "0.183 [0.111, 0.263]",
+     "latency_min": "8.7 [3.7, 15.8]",
+     "false_alarms_per_hour": "1.040 [0.666, 1.498]"
+    },
+    {
+     "model": "B · accelerometer + gyroscope",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.617 [0.551, 0.682]",
+     "f1": "0.057 [0.031, 0.092]",
+     "precision": "0.127 [0.066, 0.196]",
+     "recall": "0.066 [0.028, 0.116]",
+     "fpr": "0.016 [0.011, 0.021]",
+     "event_recall": "0.242 [0.165, 0.331]",
+     "latency_min": "11.3 [5.4, 18.4]",
+     "false_alarms_per_hour": "0.931 [0.679, 1.251]"
+    },
+    {
+     "model": "C · accelerometer + gyroscope + time",
+     "set": "acc + gyro",
+     "people": "57 / 49",
+     "auroc": "0.646 [0.584, 0.706]",
+     "f1": "0.071 [0.043, 0.106]",
+     "precision": "0.139 [0.081, 0.205]",
+     "recall": "0.075 [0.039, 0.122]",
+     "fpr": "0.016 [0.011, 0.023]",
+     "event_recall": "0.234 [0.161, 0.319]",
+     "latency_min": "9.0 [3.7, 16.0]",
+     "false_alarms_per_hour": "0.963 [0.634, 1.354]"
+    },
+    {
+     "model": "C · accelerometer + gyroscope + time",
+     "set": "acc + gyro + location",
+     "people": "53 / 46",
+     "auroc": "0.646 [0.585, 0.705]",
+     "f1": "0.072 [0.041, 0.110]",
+     "precision": "0.146 [0.087, 0.212]",
+     "recall": "0.078 [0.040, 0.127]",
+     "fpr": "0.015 [0.009, 0.022]",
+     "event_recall": "0.234 [0.156, 0.324]",
+     "latency_min": "10.6 [4.3, 18.4]",
+     "false_alarms_per_hour": "0.884 [0.563, 1.292]"
+    },
+    {
+     "model": "C + location",
+     "set": "acc + gyro + location",
+     "people": "53 / 46",
+     "auroc": "0.651 [0.589, 0.709]",
+     "f1": "0.088 [0.055, 0.126]",
+     "precision": "0.153 [0.088, 0.237]",
+     "recall": "0.113 [0.065, 0.169]",
+     "fpr": "0.040 [0.023, 0.061]",
+     "event_recall": "0.263 [0.175, 0.350]",
+     "latency_min": "4.1 [1.3, 7.7]",
+     "false_alarms_per_hour": "2.388 [1.392, 3.667]"
+    }
+   ]
+  },
+  {
+   "id": "tests",
+   "caption": "Paired differences over people (Wilcoxon, Holm within detector)",
+   "columns": [
+    {
+     "key": "detector",
+     "label": "Detector",
+     "align": "l"
+    },
+    {
+     "key": "comparison",
+     "label": "Comparison",
+     "align": "l"
+    },
+    {
+     "key": "metric",
+     "label": "Metric",
+     "align": "l"
+    },
+    {
+     "key": "n",
+     "label": "People",
+     "align": "r"
+    },
+    {
+     "key": "diff",
+     "label": "Mean difference",
+     "align": "r"
+    },
+    {
+     "key": "better",
+     "label": "Better / worse",
+     "align": "r"
+    },
+    {
+     "key": "p",
+     "label": "p (Holm)",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "B vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.009",
+     "better": "27/22",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "B vs A",
+     "metric": "F1",
+     "n": 44,
+     "diff": "+0.005",
+     "better": "17/17",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "B vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.000",
+     "better": "9/8",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C vs B",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.029",
+     "better": "31/18",
+     "p": "0.0465"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C vs B",
+     "metric": "F1",
+     "n": 43,
+     "diff": "+0.012",
+     "better": "18/13",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C vs B",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "-0.007",
+     "better": "10/9",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.038",
+     "better": "32/17",
+     "p": "0.0822"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C vs A",
+     "metric": "F1",
+     "n": 44,
+     "diff": "+0.017",
+     "better": "21/12",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "-0.007",
+     "better": "11/11",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "A+time vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.020",
+     "better": "33/16",
+     "p": "0.516"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "A+time vs A",
+     "metric": "F1",
+     "n": 44,
+     "diff": "+0.003",
+     "better": "17/14",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "A+time vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "-0.058",
+     "better": "7/12",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C+location vs C",
+     "metric": "AUROC",
+     "n": 46,
+     "diff": "+0.005",
+     "better": "27/19",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C+location vs C",
+     "metric": "F1",
+     "n": 42,
+     "diff": "+0.016",
+     "better": "16/13",
+     "p": "1"
+    },
+    {
+     "detector": "k-nearest neighbours",
+     "comparison": "C+location vs C",
+     "metric": "Events detected",
+     "n": 46,
+     "diff": "+0.029",
+     "better": "11/9",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "B vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.013",
+     "better": "23/26",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "B vs A",
+     "metric": "F1",
+     "n": 44,
+     "diff": "-0.003",
+     "better": "23/13",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "B vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.019",
+     "better": "15/9",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C vs B",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.004",
+     "better": "34/14",
+     "p": "0.0503"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C vs B",
+     "metric": "F1",
+     "n": 44,
+     "diff": "-0.004",
+     "better": "15/20",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C vs B",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.001",
+     "better": "9/12",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.018",
+     "better": "31/18",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C vs A",
+     "metric": "F1",
+     "n": 45,
+     "diff": "-0.007",
+     "better": "20/17",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.020",
+     "better": "15/10",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "A+time vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.004",
+     "better": "28/21",
+     "p": "0.409"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "A+time vs A",
+     "metric": "F1",
+     "n": 46,
+     "diff": "+0.009",
+     "better": "24/12",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "A+time vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.006",
+     "better": "12/7",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C+location vs C",
+     "metric": "AUROC",
+     "n": 46,
+     "diff": "-0.006",
+     "better": "21/25",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C+location vs C",
+     "metric": "F1",
+     "n": 42,
+     "diff": "+0.007",
+     "better": "15/19",
+     "p": "1"
+    },
+    {
+     "detector": "Isolation forest",
+     "comparison": "C+location vs C",
+     "metric": "Events detected",
+     "n": 46,
+     "diff": "-0.039",
+     "better": "9/18",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "B vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.008",
+     "better": "23/26",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "B vs A",
+     "metric": "F1",
+     "n": 46,
+     "diff": "+0.004",
+     "better": "20/17",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "B vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.058",
+     "better": "13/8",
+     "p": "0.837"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C vs B",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.008",
+     "better": "34/15",
+     "p": "0.0292"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C vs B",
+     "metric": "F1",
+     "n": 46,
+     "diff": "+0.001",
+     "better": "15/19",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C vs B",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.008",
+     "better": "5/1",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.016",
+     "better": "26/23",
+     "p": "0.821"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C vs A",
+     "metric": "F1",
+     "n": 46,
+     "diff": "+0.005",
+     "better": "21/17",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "+0.066",
+     "better": "14/7",
+     "p": "0.44"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "A+time vs A",
+     "metric": "AUROC",
+     "n": 49,
+     "diff": "+0.009",
+     "better": "32/17",
+     "p": "0.322"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "A+time vs A",
+     "metric": "F1",
+     "n": 47,
+     "diff": "-0.000",
+     "better": "11/20",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "A+time vs A",
+     "metric": "Events detected",
+     "n": 49,
+     "diff": "-0.001",
+     "better": "4/4",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C+location vs C",
+     "metric": "AUROC",
+     "n": 46,
+     "diff": "+0.004",
+     "better": "22/23",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C+location vs C",
+     "metric": "F1",
+     "n": 40,
+     "diff": "-0.002",
+     "better": "15/21",
+     "p": "1"
+    },
+    {
+     "detector": "Gaussian (Mahalanobis)",
+     "comparison": "C+location vs C",
+     "metric": "Events detected",
+     "n": 46,
+     "diff": "-0.043",
+     "better": "7/16",
+     "p": "1"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "57 people evaluated. AUROC, recall and events detected need at least one anomaly minute, so they average over fewer people than the false-positive rate. A person enters a comparison only if both models could be scored for them.",
+  "Thresholds come from reference days only (95th percentile of cross-fitted reference scores); AUROC does not depend on the threshold.",
+  "'acc + time' and 'C + location' extend the specified A/B/C ablation."
+ ]
+}

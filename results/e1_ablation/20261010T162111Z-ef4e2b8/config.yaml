@@ -1,0 +1,19 @@
+sets:
+  core:
+  - A
+  - B
+  - C
+  - A+time
+  location:
+  - C
+  - C+location
+detectors:
+- knn
+- iforest
+- gauss
+seeds:
+- 0
+- 1
+- 2
+block_weighting: true
+workers: 4

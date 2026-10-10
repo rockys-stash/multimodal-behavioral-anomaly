@@ -1,0 +1,371 @@
+{
+ "title": "E3 False positives",
+ "question": "When the detector raises an alarm on normal behaviour, what is going on?",
+ "findings": [
+  "1633 false positives and 116737 true negatives over 57 people (false-positive rate 0.014).",
+  "Most over-represented phone: in hand (8.9% of false positives against 4.2% of true negatives, lift 2.11).",
+  "Most over-represented transition: yes (7.1% of false positives against 2.8% of true negatives, lift 2.57).",
+  "Most over-represented activity: walking (24.2% of false positives against 7.0% of true negatives, lift 3.45).",
+  "Most over-represented explanation: acc dominates (53.6% of false positives against 50.8% of true negatives, lift 1.06)."
+ ],
+ "tables": [
+  {
+   "id": "by_phone",
+   "caption": "False positives by phone",
+   "columns": [
+    {
+     "key": "category",
+     "label": "Category",
+     "align": "l"
+    },
+    {
+     "key": "fp",
+     "label": "False positives",
+     "align": "r"
+    },
+    {
+     "key": "fp_share",
+     "label": "Share of FPs",
+     "align": "r"
+    },
+    {
+     "key": "tn_share",
+     "label": "Share of TNs",
+     "align": "r"
+    },
+    {
+     "key": "lift",
+     "label": "Lift",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "category": "not reported",
+     "fp": 862,
+     "fp_share": "0.528",
+     "tn_share": "0.459",
+     "lift": "1.15"
+    },
+    {
+     "category": "on table",
+     "fp": 359,
+     "fp_share": "0.220",
+     "tn_share": "0.387",
+     "lift": "0.57"
+    },
+    {
+     "category": "in pocket",
+     "fp": 169,
+     "fp_share": "0.103",
+     "tn_share": "0.069",
+     "lift": "1.51"
+    },
+    {
+     "category": "in hand",
+     "fp": 145,
+     "fp_share": "0.089",
+     "tn_share": "0.042",
+     "lift": "2.11"
+    },
+    {
+     "category": "in bag",
+     "fp": 98,
+     "fp_share": "0.060",
+     "tn_share": "0.043",
+     "lift": "1.38"
+    }
+   ]
+  },
+  {
+   "id": "by_transition",
+   "caption": "False positives by transition",
+   "columns": [
+    {
+     "key": "category",
+     "label": "Category",
+     "align": "l"
+    },
+    {
+     "key": "fp",
+     "label": "False positives",
+     "align": "r"
+    },
+    {
+     "key": "fp_share",
+     "label": "Share of FPs",
+     "align": "r"
+    },
+    {
+     "key": "tn_share",
+     "label": "Share of TNs",
+     "align": "r"
+    },
+    {
+     "key": "lift",
+     "label": "Lift",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "category": "no",
+     "fp": 1517,
+     "fp_share": "0.929",
+     "tn_share": "0.972",
+     "lift": "0.96"
+    },
+    {
+     "category": "yes",
+     "fp": 116,
+     "fp_share": "0.071",
+     "tn_share": "0.028",
+     "lift": "2.57"
+    }
+   ]
+  },
+  {
+   "id": "by_activity",
+   "caption": "False positives by activity",
+   "columns": [
+    {
+     "key": "category",
+     "label": "Category",
+     "align": "l"
+    },
+    {
+     "key": "fp",
+     "label": "False positives",
+     "align": "r"
+    },
+    {
+     "key": "fp_share",
+     "label": "Share of FPs",
+     "align": "r"
+    },
+    {
+     "key": "tn_share",
+     "label": "Share of TNs",
+     "align": "r"
+    },
+    {
+     "key": "lift",
+     "label": "Lift",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "category": "sitting",
+     "fp": 675,
+     "fp_share": "0.413",
+     "tn_share": "0.427",
+     "lift": "0.97"
+    },
+    {
+     "category": "walking",
+     "fp": 396,
+     "fp_share": "0.242",
+     "tn_share": "0.070",
+     "lift": "3.45"
+    },
+    {
+     "category": "lying down",
+     "fp": 309,
+     "fp_share": "0.189",
+     "tn_share": "0.383",
+     "lift": "0.49"
+    },
+    {
+     "category": "standing",
+     "fp": 234,
+     "fp_share": "0.143",
+     "tn_share": "0.109",
+     "lift": "1.31"
+    },
+    {
+     "category": "bicycling",
+     "fp": 19,
+     "fp_share": "0.012",
+     "tn_share": "0.010",
+     "lift": "1.11"
+    }
+   ]
+  },
+  {
+   "id": "by_explanation",
+   "caption": "False positives by explanation",
+   "columns": [
+    {
+     "key": "category",
+     "label": "Category",
+     "align": "l"
+    },
+    {
+     "key": "fp",
+     "label": "False positives",
+     "align": "r"
+    },
+    {
+     "key": "fp_share",
+     "label": "Share of FPs",
+     "align": "r"
+    },
+    {
+     "key": "tn_share",
+     "label": "Share of TNs",
+     "align": "r"
+    },
+    {
+     "key": "lift",
+     "label": "Lift",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "category": "acc dominates",
+     "fp": 876,
+     "fp_share": "0.536",
+     "tn_share": "0.508",
+     "lift": "1.06"
+    },
+    {
+     "category": "gyro dominates",
+     "fp": 692,
+     "fp_share": "0.424",
+     "tn_share": "0.443",
+     "lift": "0.96"
+    },
+    {
+     "category": "time dominates",
+     "fp": 65,
+     "fp_share": "0.040",
+     "tn_share": "0.049",
+     "lift": "0.82"
+    }
+   ]
+  },
+  {
+   "id": "by_context",
+   "caption": "Context labels most over-represented among false positives (at least 30 FPs)",
+   "columns": [
+    {
+     "key": "category",
+     "label": "Context label",
+     "align": "l"
+    },
+    {
+     "key": "fp",
+     "label": "False positives",
+     "align": "r"
+    },
+    {
+     "key": "fp_share",
+     "label": "Share of FPs",
+     "align": "r"
+    },
+    {
+     "key": "tn_share",
+     "label": "Share of TNs",
+     "align": "r"
+    },
+    {
+     "key": "lift",
+     "label": "Lift",
+     "align": "r"
+    }
+   ],
+   "rows": [
+    {
+     "category": "OR_outside",
+     "fp": 235,
+     "fp_share": "0.144",
+     "tn_share": "0.034",
+     "lift": "4.26"
+    },
+    {
+     "category": "WITH_CO-WORKERS",
+     "fp": 70,
+     "fp_share": "0.043",
+     "tn_share": "0.015",
+     "lift": "2.92"
+    },
+    {
+     "category": "DRIVE_-_I_M_THE_DRIVER",
+     "fp": 99,
+     "fp_share": "0.061",
+     "tn_share": "0.026",
+     "lift": "2.34"
+    },
+    {
+     "category": "GROOMING",
+     "fp": 40,
+     "fp_share": "0.024",
+     "tn_share": "0.010",
+     "lift": "2.34"
+    },
+    {
+     "category": "DRIVE_-_I_M_A_PASSENGER",
+     "fp": 36,
+     "fp_share": "0.022",
+     "tn_share": "0.010",
+     "lift": "2.29"
+    },
+    {
+     "category": "WITH_FRIENDS",
+     "fp": 251,
+     "fp_share": "0.154",
+     "tn_share": "0.078",
+     "lift": "1.98"
+    },
+    {
+     "category": "TALKING",
+     "fp": 338,
+     "fp_share": "0.207",
+     "tn_share": "0.111",
+     "lift": "1.86"
+    },
+    {
+     "category": "IN_A_CAR",
+     "fp": 56,
+     "fp_share": "0.034",
+     "tn_share": "0.020",
+     "lift": "1.75"
+    },
+    {
+     "category": "EATING",
+     "fp": 120,
+     "fp_share": "0.073",
+     "tn_share": "0.049",
+     "lift": "1.49"
+    },
+    {
+     "category": "CLEANING",
+     "fp": 35,
+     "fp_share": "0.021",
+     "tn_share": "0.017",
+     "lift": "1.27"
+    },
+    {
+     "category": "WATCHING_TV",
+     "fp": 69,
+     "fp_share": "0.042",
+     "tn_share": "0.040",
+     "lift": "1.06"
+    },
+    {
+     "category": "AT_SCHOOL",
+     "fp": 198,
+     "fp_share": "0.121",
+     "tn_share": "0.126",
+     "lift": "0.96"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Lift > 1 means the category is more common among false positives than among correctly quiet normal minutes. Categories overlap (a minute has a phone position, an activity and several context labels).",
+  "Primary model fixed before running: C with knn."
+ ]
+}
