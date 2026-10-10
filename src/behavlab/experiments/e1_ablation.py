@@ -100,10 +100,10 @@ def summarise(s: Summary, summary: list[dict[str, Any]], tests: list[dict[str, A
         rows = [e for e in summary if e["detector"] == det]
         s.tables.append(table(
             f"ablation_{det}", f"{DETECTOR_LABEL[det]}: mean over people [95% bootstrap interval]",
-            [("model", "Model", "l"), ("set", "Minutes compared", "l"), ("people", "People", "r")]
+            [("model", "Model", "l"), ("set", "Minutes compared", "l"), ("people", "People scored / with anomalies", "r")]
             + [(m, METRIC_LABEL[m], "r") for m in ("auroc", "f1", "recall", "fpr", "event_recall", "latency_min")],
             [{"model": MODEL_LABEL[e["model"]], "set": "acc + gyro" if e["set"] == "core" else "acc + gyro + location",
-              "people": e["people"], **{m: _fmt(e[m], 1 if m == "latency_min" else 3) for m in METRICS}} for e in rows],
+              "people": f"{e['people']} / {e['auroc']['n']}", **{m: _fmt(e[m], 1 if m == "latency_min" else 3) for m in METRICS}} for e in rows],
         ))  # fmt: skip
     trows = []
     for t in tests:
@@ -124,7 +124,8 @@ def summarise(s: Summary, summary: list[dict[str, Any]], tests: list[dict[str, A
                 f"(better for {t['better']} of {t['n']} people, Holm p = {t['p_holm']:.3g}, {verdict})."
             )
     s.notes.append(
-        f"{people} people evaluated. A person enters a comparison only if both models could be scored for them."
+        f"{people} people evaluated. AUROC, recall and events detected need at least one anomaly minute, so they average over "
+        "fewer people than the false-positive rate. A person enters a comparison only if both models could be scored for them."
     )
     s.notes.append("Thresholds come from reference days only (95th percentile of cross-fitted reference scores); "
                    "AUROC does not depend on the threshold.")  # fmt: skip

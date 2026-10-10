@@ -135,7 +135,7 @@ function IntervalChart({ rows, metric }: { rows: AblationRow[]; metric: Metric }
         })}
       </svg>
       <figcaption className="muted small">
-        n = {rows[0]?.people ?? 0} people per model on minutes with accelerometer and gyroscope. ¹ On the minutes that also have location (fewer people), so compare it with the C row marked ¹.
+        n = {rows[0]?.[metric].n ?? 0} people per model ({metric === "fpr" ? "all scored people" : "people with at least one anomaly minute"}), on minutes with accelerometer and gyroscope. ¹ On the minutes that also have location (fewer people), so compare it with the C row marked ¹.
       </figcaption>
     </figure>
   );

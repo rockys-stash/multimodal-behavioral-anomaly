@@ -89,4 +89,9 @@ def run(cfg: dict[str, Any], results: Path | None = None) -> Path:
             if t["variant"] != "default" and d is not None and verdict(d) != verdict(t):
                 s.findings.append(f"Changed under '{t['variant']}' ({t['detector']}): {t['b']} vs {t['a']} is {verdict(t)} "
                                   f"(default {verdict(d)}).")  # fmt: skip
+        s.notes.append(
+            "Holm correction here runs over the three AUROC comparisons of one variant and detector, a smaller family "
+            "than E1's (five comparisons on three metrics), so 'significant' here is less conservative than in E1. "
+            "E1 is the primary analysis; this experiment only asks whether verdicts move when a choice changes."
+        )
     return rd.path
