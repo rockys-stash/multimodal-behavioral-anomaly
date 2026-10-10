@@ -1,0 +1,17 @@
+*.egg-info/
+*.pyc
+.DS_Store
+.env
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+cache/
+data/raw/
+dist/
+node_modules/
+results/scratch/
+runs/
+var/
+web/dist/

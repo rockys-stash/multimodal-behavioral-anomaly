@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and cite the ExtraSensory dataset (Vaizman et al., 2017)."
+title: "Multimodal behavioural anomaly detection: which sensor streams actually improve detection"
+type: software
+authors:
+  - alias: rockys-stash
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/rockys-stash/multimodal-behavioral-anomaly"
+keywords:
+  - anomaly detection
+  - multimodal sensing
+  - human behaviour
+  - ablation
+  - ExtraSensory
+references:
+  - type: article
+    title: "Recognizing Detailed Human Context in the Wild from Smartphones and Smartwatches"
+    authors:
+      - family-names: Vaizman
+        given-names: Yonatan
+      - family-names: Ellis
+        given-names: Katherine
+      - family-names: Lanckriet
+        given-names: Gert
+    journal: "IEEE Pervasive Computing"
+    volume: 16
+    issue: 4
+    start: 62
+    end: 74
+    year: 2017
