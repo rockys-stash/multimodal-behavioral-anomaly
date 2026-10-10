@@ -469,11 +469,13 @@ tr.selected td {
 }
 .kv {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px 12px;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px 16px;
   margin: 0;
 }
 .kv dd {
+  margin: 0;
   font-size: 14px;
 }
 
@@ -779,9 +781,6 @@ tr.selected td {
   }
   .page-head {
     flex-direction: column;
-  }
-  .kv {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (prefers-reduced-motion: reduce) {

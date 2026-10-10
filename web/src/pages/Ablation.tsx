@@ -105,7 +105,7 @@ function IntervalChart({ rows, metric }: { rows: AblationRow[]; metric: Metric }
   const ticks = Array.from({ length: 5 }, (_, i) => min + ((max - min) * i) / 4);
   return (
     <figure className="chart">
-      <svg className="chart-svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Mean ${metric} per model with 95% intervals`}>
+      <svg className="chart-svg" style={{ maxWidth: W }} viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Mean ${metric} per model with 95% intervals`}>
         {ticks.map((t) => (
           <g key={t}>
             <line x1={x(t)} x2={x(t)} y1={4} y2={H - 22} stroke="var(--rule)" />
