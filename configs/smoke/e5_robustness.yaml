@@ -1,0 +1,5 @@
+detectors: [knn]
+variants:
+  - {name: default}
+  - {name: concatenation (no block weighting), block_weighting: false}
+workers: 1

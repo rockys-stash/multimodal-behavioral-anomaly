@@ -1,0 +1,7 @@
+model: C            # fixed before running: the specified full model
+detector: knn       # the detector whose score splits into per-modality shares
+restrict: [acc, gyro]
+examples_per_person: 5
+min_count: 30
+seed: 0
+workers: 4

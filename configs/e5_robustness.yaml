@@ -1,0 +1,9 @@
+detectors: [knn, gauss]
+variants:
+  - {name: default}
+  - {name: concatenation (no block weighting), block_weighting: false}
+  - {name: novel = under 0.5%, rare: 0.005}
+  - {name: novel = under 2%, rare: 0.02}
+  - {name: kNN k = 5, k: 5, detectors: [knn]}
+  - {name: kNN k = 20, k: 20, detectors: [knn]}
+workers: 4

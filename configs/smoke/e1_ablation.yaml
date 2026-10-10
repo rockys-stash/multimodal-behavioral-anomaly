@@ -1,0 +1,8 @@
+# E1 modality ablation. Models are defined in behavlab.fusion.MODELS.
+sets:
+  core: [A, B, C, A+time]        # compared on minutes with accelerometer and gyroscope
+  location: [C, C+location]      # compared on minutes that also have location
+detectors: [knn, gauss]
+seeds: [0]                 # isolation forest only; kNN and Gaussian are deterministic
+block_weighting: true
+workers: 1
